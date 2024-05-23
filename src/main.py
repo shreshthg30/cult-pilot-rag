@@ -27,8 +27,5 @@ async def get_status():
 @app.post("/cult-rag-agent")
 async def query_cult_agent(query: CultQueryInput) -> CultQueryOutput:
     query_response = await invoke_agent_with_retry(query.input)
-    query_response["intermediate_steps"] = [
-        str(s) for s in query_response["intermediate_steps"]
-    ]
 
     return query_response

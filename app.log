@@ -1406,3 +1406,148 @@ Thought: I assume the user is asking about the additional benefits of the Cultpa
 2024-05-22 18:04:52,947 INFO React agent created successfully
 2024-05-22 18:04:52,947 INFO AgentExecutor created successfully
 2024-05-22 18:04:52,947 INFO CultAgentExecutor initialized successfully
+2024-05-23 11:01:03,460 INFO CSV loaded successfully
+2024-05-23 11:01:07,906 INFO Loading faiss.
+2024-05-23 11:01:07,947 INFO Successfully loaded faiss.
+2024-05-23 11:01:07,959 INFO CultFAQChain initialized successfully
+2024-05-23 11:01:07,959 INFO GetGym initialized with URL
+2024-05-23 11:01:07,959 INFO PriceRetriever initialized with URLs
+2024-05-23 11:01:07,959 INFO GetDefault initialized with URL
+2024-05-23 11:01:12,383 INFO React agent created successfully
+2024-05-23 11:01:12,383 INFO AgentExecutor created successfully
+2024-05-23 11:01:12,383 INFO CultAgentExecutor initialized successfully
+2024-05-23 11:01:13,525 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:01:15,971 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:01:16,417 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:01:39,650 INFO CSV loaded successfully
+2024-05-23 11:01:42,211 INFO Loading faiss.
+2024-05-23 11:01:42,238 INFO Successfully loaded faiss.
+2024-05-23 11:01:42,252 INFO CultFAQChain initialized successfully
+2024-05-23 11:01:42,252 INFO GetGym initialized with URL
+2024-05-23 11:01:42,252 INFO PriceRetriever initialized with URLs
+2024-05-23 11:01:42,252 INFO GetDefault initialized with URL
+2024-05-23 11:01:46,889 INFO React agent created successfully
+2024-05-23 11:01:46,890 INFO AgentExecutor created successfully
+2024-05-23 11:01:46,890 INFO CultAgentExecutor initialized successfully
+2024-05-23 11:01:47,267 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:01:49,740 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:01:50,256 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:02:04,392 INFO CSV loaded successfully
+2024-05-23 11:02:08,221 INFO Loading faiss.
+2024-05-23 11:02:08,247 INFO Successfully loaded faiss.
+2024-05-23 11:02:08,260 INFO CultFAQChain initialized successfully
+2024-05-23 11:02:08,260 INFO GetGym initialized with URL
+2024-05-23 11:02:08,260 INFO PriceRetriever initialized with URLs
+2024-05-23 11:02:08,260 INFO GetDefault initialized with URL
+2024-05-23 11:02:12,692 INFO React agent created successfully
+2024-05-23 11:02:12,693 INFO AgentExecutor created successfully
+2024-05-23 11:02:12,693 INFO CultAgentExecutor initialized successfully
+2024-05-23 11:02:13,221 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:02:15,161 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:02:15,457 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:02:38,075 INFO CSV loaded successfully
+2024-05-23 11:02:41,652 INFO Loading faiss.
+2024-05-23 11:02:41,679 INFO Successfully loaded faiss.
+2024-05-23 11:02:41,694 INFO CultFAQChain initialized successfully
+2024-05-23 11:02:41,694 INFO GetGym initialized with URL
+2024-05-23 11:02:41,694 INFO PriceRetriever initialized with URLs
+2024-05-23 11:02:41,694 INFO GetDefault initialized with URL
+2024-05-23 11:02:45,943 INFO React agent created successfully
+2024-05-23 11:02:45,943 INFO AgentExecutor created successfully
+2024-05-23 11:02:45,943 INFO CultAgentExecutor initialized successfully
+2024-05-23 11:02:46,286 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:02:48,333 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:02:48,843 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:06:30,622 INFO CSV loaded successfully
+2024-05-23 11:06:33,713 INFO Loading faiss.
+2024-05-23 11:06:33,743 INFO Successfully loaded faiss.
+2024-05-23 11:06:33,760 INFO CultFAQChain initialized successfully
+2024-05-23 11:06:33,760 INFO GetGym initialized with URL
+2024-05-23 11:06:33,760 INFO PriceRetriever initialized with URLs
+2024-05-23 11:06:33,760 INFO GetDefault initialized with URL
+2024-05-23 11:06:37,698 INFO CSV loaded successfully
+2024-05-23 11:06:37,812 INFO React agent created successfully
+2024-05-23 11:06:37,812 INFO AgentExecutor created successfully
+2024-05-23 11:06:37,812 INFO CultAgentExecutor initialized successfully
+2024-05-23 11:06:38,832 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:38,832 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:38,832 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:38,833 ERROR Error creating agent: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:47,064 INFO CSV loaded successfully
+2024-05-23 11:06:48,048 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:48,048 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:48,048 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:48,048 ERROR Error creating agent: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:48,481 INFO CSV loaded successfully
+2024-05-23 11:06:49,421 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:49,421 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:49,422 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:49,422 ERROR Error creating agent: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:51,013 INFO CSV loaded successfully
+2024-05-23 11:06:51,377 INFO CSV loaded successfully
+2024-05-23 11:06:51,691 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:51,693 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:51,693 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:51,693 ERROR Error creating agent: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:52,071 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:52,072 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:52,072 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:06:52,072 ERROR Error creating agent: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:08:48,863 INFO CSV loaded successfully
+2024-05-23 11:08:52,049 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:08:52,050 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:08:52,050 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:08:52,050 ERROR Error creating agent: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:41,095 INFO CSV loaded successfully
+2024-05-23 11:11:42,753 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:42,754 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:42,754 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:43,794 INFO CSV loaded successfully
+2024-05-23 11:11:44,983 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:44,984 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:44,984 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:46,023 INFO CSV loaded successfully
+2024-05-23 11:11:47,219 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:47,219 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:47,219 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:48,257 INFO CSV loaded successfully
+2024-05-23 11:11:48,889 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:48,890 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:48,890 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:49,948 INFO CSV loaded successfully
+2024-05-23 11:11:50,714 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:50,714 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:50,715 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:51,753 INFO CSV loaded successfully
+2024-05-23 11:11:52,348 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:52,349 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:52,349 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:53,388 INFO CSV loaded successfully
+2024-05-23 11:11:54,449 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:54,449 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:54,450 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:55,485 INFO CSV loaded successfully
+2024-05-23 11:11:56,070 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:56,071 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:56,071 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:57,110 INFO CSV loaded successfully
+2024-05-23 11:11:57,876 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:57,876 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:57,876 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:58,914 INFO CSV loaded successfully
+2024-05-23 11:11:59,674 ERROR Error initializing CreateRetriever: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:59,675 ERROR Error initializing CultFAQChain: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:11:59,675 ERROR Error initializing CultAgentExecutor: (400, '{"detail":"You have exceeded your 1000000 free tokens of Nomic Embedding API usage. Enter a payment method at https://atlas.nomic.ai to continue with usage-based billing."}')
+2024-05-23 11:14:26,809 INFO CSV loaded successfully
+2024-05-23 11:14:32,019 INFO Loading faiss.
+2024-05-23 11:14:32,061 INFO Successfully loaded faiss.
+2024-05-23 11:14:32,073 INFO CultFAQChain initialized successfully
+2024-05-23 11:14:32,073 INFO GetGym initialized with URL
+2024-05-23 11:14:32,073 INFO PriceRetriever initialized with URLs
+2024-05-23 11:14:32,073 INFO GetDefault initialized with URL
+2024-05-23 11:14:36,373 INFO React agent created successfully
+2024-05-23 11:14:36,373 INFO AgentExecutor created successfully
+2024-05-23 11:14:36,373 INFO CultAgentExecutor initialized successfully
+2024-05-23 11:14:36,924 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:14:39,587 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-23 11:14:40,020 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

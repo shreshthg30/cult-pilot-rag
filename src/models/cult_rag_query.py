@@ -6,4 +6,3 @@ class CultQueryInput(BaseModel):
 class CultQueryOutput(BaseModel):
     input: str
     output: str
-    intermediate_steps: list[str]
