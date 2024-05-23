@@ -1,0 +1,1408 @@
+2024-05-20 18:26:09,277 INFO CSV loaded successfully
+2024-05-20 18:26:09,673 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-20 18:26:09,750 INFO Collection rag-chroma is not created.
+2024-05-20 18:27:14,796 INFO Input cleaned successfully
+2024-05-20 18:27:14,798 ERROR Error initializing CultFAQChain: 1 validation error for ChatGroq
+__root__
+  Did not find groq_api_key, please add an environment variable `GROQ_API_KEY` which contains it, or pass `groq_api_key` as a named parameter. (type=value_error)
+2024-05-20 18:27:14,799 ERROR Error initializing CultAgentExecutor: 1 validation error for ChatGroq
+__root__
+  Did not find groq_api_key, please add an environment variable `GROQ_API_KEY` which contains it, or pass `groq_api_key` as a named parameter. (type=value_error)
+2024-05-20 18:27:14,799 ERROR Error invoking agent: 1 validation error for ChatGroq
+__root__
+  Did not find groq_api_key, please add an environment variable `GROQ_API_KEY` which contains it, or pass `groq_api_key` as a named parameter. (type=value_error)
+2024-05-20 18:27:14,799 INFO Answered successfully
+2024-05-20 18:28:25,156 INFO CSV loaded successfully
+2024-05-20 18:28:25,175 INFO Collection rag-chroma is not created.
+2024-05-20 18:28:40,660 INFO Input cleaned successfully
+2024-05-20 18:28:40,759 INFO CultFAQChain initialized successfully
+2024-05-20 18:28:40,759 INFO GetGym initialized with URL
+2024-05-20 18:28:40,759 INFO PriceRetriever initialized with URLs
+2024-05-20 18:28:40,759 INFO GetDefault initialized with URL
+2024-05-20 18:28:44,953 INFO React agent created successfully
+2024-05-20 18:28:44,955 INFO AgentExecutor created successfully
+2024-05-20 18:28:44,955 INFO CultAgentExecutor initialized successfully
+2024-05-20 18:29:09,118 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 18:29:25,870 INFO Answered successfully
+2024-05-20 23:11:51,753 INFO CSV loaded successfully
+2024-05-20 23:11:52,171 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-20 23:11:52,263 INFO Collection rag-chroma is not created.
+2024-05-20 23:11:52,267 ERROR Error initializing CreateRetriever: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11f982870>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-05-20 23:11:52,267 ERROR Failed to create answers retriever: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11f982870>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-05-20 23:12:21,705 INFO CSV loaded successfully
+2024-05-20 23:12:21,717 INFO Collection rag-chroma is not created.
+2024-05-20 23:12:21,720 ERROR Error initializing CreateRetriever: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ff0c6e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-05-20 23:12:34,624 INFO CSV loaded successfully
+2024-05-20 23:12:34,635 INFO Collection rag-chroma is not created.
+2024-05-20 23:14:21,544 INFO Input cleaned successfully
+2024-05-20 23:14:21,660 INFO CultFAQChain initialized successfully
+2024-05-20 23:14:21,660 INFO GetGym initialized with URL
+2024-05-20 23:14:21,660 INFO PriceRetriever initialized with URLs
+2024-05-20 23:14:21,660 INFO GetDefault initialized with URL
+2024-05-20 23:14:26,098 INFO React agent created successfully
+2024-05-20 23:14:26,099 INFO AgentExecutor created successfully
+2024-05-20 23:14:26,099 INFO CultAgentExecutor initialized successfully
+2024-05-20 23:14:52,726 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 23:15:11,956 INFO Answered successfully
+2024-05-20 23:16:54,832 INFO Input cleaned successfully
+2024-05-20 23:16:54,870 INFO CultFAQChain initialized successfully
+2024-05-20 23:16:54,871 INFO GetGym initialized with URL
+2024-05-20 23:16:54,871 INFO PriceRetriever initialized with URLs
+2024-05-20 23:16:54,871 INFO GetDefault initialized with URL
+2024-05-20 23:16:58,875 INFO React agent created successfully
+2024-05-20 23:16:58,875 INFO AgentExecutor created successfully
+2024-05-20 23:16:58,875 INFO CultAgentExecutor initialized successfully
+2024-05-20 23:17:11,813 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 23:17:30,708 INFO Answered successfully
+2024-05-21 10:21:34,940 INFO CSV loaded successfully
+2024-05-21 10:21:35,351 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-21 10:21:35,430 INFO Collection rag-chroma is not created.
+2024-05-21 10:33:14,594 INFO Input cleaned successfully
+2024-05-21 10:33:14,706 INFO CultFAQChain initialized successfully
+2024-05-21 10:33:14,706 INFO GetGym initialized with URL
+2024-05-21 10:33:14,706 INFO PriceRetriever initialized with URLs
+2024-05-21 10:33:14,706 INFO GetDefault initialized with URL
+2024-05-21 10:33:18,772 INFO React agent created successfully
+2024-05-21 10:33:18,772 INFO AgentExecutor created successfully
+2024-05-21 10:33:18,773 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:33:45,721 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 10:34:04,847 INFO Answered successfully
+2024-05-21 10:34:58,983 INFO Input cleaned successfully
+2024-05-21 10:34:59,021 INFO CultFAQChain initialized successfully
+2024-05-21 10:34:59,021 INFO GetGym initialized with URL
+2024-05-21 10:34:59,022 INFO PriceRetriever initialized with URLs
+2024-05-21 10:34:59,022 INFO GetDefault initialized with URL
+2024-05-21 10:35:02,817 INFO React agent created successfully
+2024-05-21 10:35:02,818 INFO AgentExecutor created successfully
+2024-05-21 10:35:02,818 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:35:21,618 INFO Received query: why should i buy the elite pass"
+Thought: I assume the user is asking about the additional benefits of the Cultpass Elite membership over the Pro membership. I will provide information on the facilities and classes that are exclusive to the Elite members.
+2024-05-21 10:35:28,625 INFO Answered successfully
+2024-05-21 10:36:53,443 INFO CSV loaded successfully
+2024-05-21 10:36:53,463 INFO Collection rag-chroma is not created.
+2024-05-21 10:37:09,845 INFO Input cleaned successfully
+2024-05-21 10:37:09,855 INFO CultFAQChain initialized successfully
+2024-05-21 10:37:09,855 INFO GetGym initialized with URL
+2024-05-21 10:37:09,855 INFO PriceRetriever initialized with URLs
+2024-05-21 10:37:09,855 INFO GetDefault initialized with URL
+2024-05-21 10:37:13,273 INFO React agent created successfully
+2024-05-21 10:37:13,275 INFO AgentExecutor created successfully
+2024-05-21 10:37:13,275 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:37:35,422 INFO Received query: Why should I buy the Elite pass instead of the Pro pass?
+2024-05-21 10:37:49,026 INFO Answered successfully
+2024-05-21 10:38:42,976 INFO CSV loaded successfully
+2024-05-21 10:38:42,996 INFO Collection rag-chroma is not created.
+2024-05-21 10:38:59,344 INFO Input cleaned successfully
+2024-05-21 10:38:59,354 INFO CultFAQChain initialized successfully
+2024-05-21 10:38:59,355 INFO GetGym initialized with URL
+2024-05-21 10:38:59,355 INFO PriceRetriever initialized with URLs
+2024-05-21 10:38:59,355 INFO GetDefault initialized with URL
+2024-05-21 10:39:02,945 INFO React agent created successfully
+2024-05-21 10:39:02,947 INFO AgentExecutor created successfully
+2024-05-21 10:39:02,947 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:39:23,328 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 10:39:42,107 INFO Received query: why should i buy the elite pass
+2024-05-21 10:39:50,635 INFO Received query: why should i buy the elite pass
+2024-05-21 10:39:55,356 INFO Answered successfully
+2024-05-21 10:40:01,750 INFO Input cleaned successfully
+2024-05-21 10:40:01,796 INFO CultFAQChain initialized successfully
+2024-05-21 10:40:01,797 INFO GetGym initialized with URL
+2024-05-21 10:40:01,797 INFO PriceRetriever initialized with URLs
+2024-05-21 10:40:01,797 INFO GetDefault initialized with URL
+2024-05-21 10:40:05,595 INFO React agent created successfully
+2024-05-21 10:40:05,596 INFO AgentExecutor created successfully
+2024-05-21 10:40:05,596 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:40:14,347 INFO Received query: Why should I buy the Cultpass Elite membership?
+2024-05-21 10:40:14,348 INFO Query matched 'elite'
+2024-05-21 10:40:23,470 INFO Answered successfully
+2024-05-21 10:50:04,474 INFO Input cleaned successfully
+2024-05-21 10:50:04,651 INFO CSV loaded successfully
+2024-05-21 10:50:05,008 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-21 10:50:05,085 INFO Collection rag-chroma is not created.
+2024-05-21 10:50:21,193 INFO CultFAQChain initialized successfully
+2024-05-21 10:50:21,198 INFO GetGym initialized with URL
+2024-05-21 10:50:21,198 INFO PriceRetriever initialized with URLs
+2024-05-21 10:50:21,198 INFO GetDefault initialized with URL
+2024-05-21 10:50:24,942 INFO React agent created successfully
+2024-05-21 10:50:24,942 INFO AgentExecutor created successfully
+2024-05-21 10:50:24,942 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:50:49,906 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 10:51:15,652 INFO Answered successfully
+2024-05-21 10:51:50,257 INFO Input cleaned successfully
+2024-05-21 10:51:50,284 INFO CSV loaded successfully
+2024-05-21 10:51:50,296 INFO Collection rag-chroma is not created.
+2024-05-21 10:52:06,555 INFO CultFAQChain initialized successfully
+2024-05-21 10:52:06,556 INFO GetGym initialized with URL
+2024-05-21 10:52:06,557 INFO PriceRetriever initialized with URLs
+2024-05-21 10:52:06,557 INFO GetDefault initialized with URL
+2024-05-21 10:52:10,502 INFO React agent created successfully
+2024-05-21 10:52:10,502 INFO AgentExecutor created successfully
+2024-05-21 10:52:10,502 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:52:27,451 INFO Received query: can i do workouts at home
+2024-05-21 10:52:33,659 INFO Received query: can i do workouts at home
+2024-05-21 10:52:47,214 INFO Received query: can i do workouts at home
+2024-05-21 10:52:59,062 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 10:53:18,372 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 10:53:42,676 INFO Answered successfully
+2024-05-21 10:56:41,591 INFO Input cleaned successfully
+2024-05-21 10:56:41,601 INFO CSV loaded successfully
+2024-05-21 10:56:41,620 INFO Collection rag-chroma is not created.
+2024-05-21 10:56:57,900 INFO CultFAQChain initialized successfully
+2024-05-21 10:56:57,900 INFO GetGym initialized with URL
+2024-05-21 10:56:57,900 INFO PriceRetriever initialized with URLs
+2024-05-21 10:56:57,900 INFO GetDefault initialized with URL
+2024-05-21 10:57:01,929 INFO React agent created successfully
+2024-05-21 10:57:01,931 INFO AgentExecutor created successfully
+2024-05-21 10:57:01,931 INFO CultAgentExecutor initialized successfully
+2024-05-21 10:58:13,378 INFO Answered successfully
+2024-05-21 10:59:58,427 INFO Input cleaned successfully
+2024-05-21 10:59:58,434 INFO CSV loaded successfully
+2024-05-21 10:59:58,448 INFO Collection rag-chroma is not created.
+2024-05-21 11:00:14,590 INFO CultFAQChain initialized successfully
+2024-05-21 11:00:14,590 INFO GetGym initialized with URL
+2024-05-21 11:00:14,590 INFO PriceRetriever initialized with URLs
+2024-05-21 11:00:14,590 INFO GetDefault initialized with URL
+2024-05-21 11:00:18,410 INFO React agent created successfully
+2024-05-21 11:00:18,411 INFO AgentExecutor created successfully
+2024-05-21 11:00:18,411 INFO CultAgentExecutor initialized successfully
+2024-05-21 11:01:12,712 INFO Answered successfully
+2024-05-21 11:01:55,304 INFO Input cleaned successfully
+2024-05-21 11:01:55,330 INFO CSV loaded successfully
+2024-05-21 11:01:55,342 INFO Collection rag-chroma is not created.
+2024-05-21 11:02:11,342 INFO CultFAQChain initialized successfully
+2024-05-21 11:02:11,342 INFO GetGym initialized with URL
+2024-05-21 11:02:11,342 INFO PriceRetriever initialized with URLs
+2024-05-21 11:02:11,342 INFO GetDefault initialized with URL
+2024-05-21 11:02:15,368 INFO React agent created successfully
+2024-05-21 11:02:15,369 INFO AgentExecutor created successfully
+2024-05-21 11:02:15,369 INFO CultAgentExecutor initialized successfully
+2024-05-21 11:02:36,866 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:02:55,370 INFO Answered successfully
+2024-05-21 11:26:27,407 INFO Input cleaned successfully
+2024-05-21 11:26:27,587 INFO CSV loaded successfully
+2024-05-21 11:26:27,921 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-21 11:26:27,996 INFO Collection rag-chroma is not created.
+2024-05-21 11:26:44,114 INFO CultFAQChain initialized successfully
+2024-05-21 11:26:44,115 INFO GetGym initialized with URL
+2024-05-21 11:26:44,115 INFO PriceRetriever initialized with URLs
+2024-05-21 11:26:44,115 INFO GetDefault initialized with URL
+2024-05-21 11:26:48,295 INFO React agent created successfully
+2024-05-21 11:26:48,296 INFO AgentExecutor created successfully
+2024-05-21 11:26:48,296 INFO CultAgentExecutor initialized successfully
+2024-05-21 11:27:15,119 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:27:35,732 INFO Answered successfully
+2024-05-21 12:02:02,852 INFO CSV loaded successfully
+2024-05-21 12:02:02,873 INFO Collection rag-chroma is not created.
+2024-05-21 12:02:18,963 INFO Input cleaned successfully
+2024-05-21 12:02:18,974 INFO CultFAQChain initialized successfully
+2024-05-21 12:02:18,974 INFO GetGym initialized with URL
+2024-05-21 12:02:18,974 INFO PriceRetriever initialized with URLs
+2024-05-21 12:02:18,974 INFO GetDefault initialized with URL
+2024-05-21 12:02:22,767 INFO React agent created successfully
+2024-05-21 12:02:22,769 INFO AgentExecutor created successfully
+2024-05-21 12:02:22,769 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:02:50,353 INFO Received query: what is the difference between pro and elite gym
+
+[Assuming the function returns a response like "Cultpass Pro offers access to X number of gyms with Y facilities, while Cultpass Elite provides access to Z number of gyms with A, B, and C facilities."]
+2024-05-21 12:02:56,874 INFO Answered successfully
+2024-05-21 12:03:49,026 INFO Input cleaned successfully
+2024-05-21 12:03:49,065 INFO CultFAQChain initialized successfully
+2024-05-21 12:03:49,065 INFO GetGym initialized with URL
+2024-05-21 12:03:49,065 INFO PriceRetriever initialized with URLs
+2024-05-21 12:03:49,065 INFO GetDefault initialized with URL
+2024-05-21 12:03:53,600 INFO React agent created successfully
+2024-05-21 12:03:53,601 INFO AgentExecutor created successfully
+2024-05-21 12:03:53,601 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:04:03,949 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:04:33,101 INFO Answered successfully
+2024-05-21 12:04:58,398 INFO CSV loaded successfully
+2024-05-21 12:04:58,420 INFO Collection rag-chroma is not created.
+2024-05-21 12:05:14,788 INFO Input cleaned successfully
+2024-05-21 12:05:14,799 INFO CultFAQChain initialized successfully
+2024-05-21 12:05:14,799 INFO GetGym initialized with URL
+2024-05-21 12:05:14,799 INFO PriceRetriever initialized with URLs
+2024-05-21 12:05:14,799 INFO GetDefault initialized with URL
+2024-05-21 12:05:19,260 INFO React agent created successfully
+2024-05-21 12:05:19,261 INFO AgentExecutor created successfully
+2024-05-21 12:05:19,261 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:05:38,909 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:06:09,464 INFO Answered successfully
+2024-05-21 12:09:51,806 INFO CSV loaded successfully
+2024-05-21 12:09:51,822 INFO Collection rag-chroma is not created.
+2024-05-21 12:10:08,148 INFO Input cleaned successfully
+2024-05-21 12:10:08,159 INFO CultFAQChain initialized successfully
+2024-05-21 12:10:08,159 INFO GetGym initialized with URL
+2024-05-21 12:10:08,159 INFO PriceRetriever initialized with URLs
+2024-05-21 12:10:08,159 INFO GetDefault initialized with URL
+2024-05-21 12:10:11,895 INFO React agent created successfully
+2024-05-21 12:10:11,896 INFO AgentExecutor created successfully
+2024-05-21 12:10:11,896 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:10:32,795 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:10:50,812 INFO Answered successfully
+2024-05-21 12:11:11,990 INFO Input cleaned successfully
+2024-05-21 12:11:12,034 INFO CultFAQChain initialized successfully
+2024-05-21 12:11:12,034 INFO GetGym initialized with URL
+2024-05-21 12:11:12,034 INFO PriceRetriever initialized with URLs
+2024-05-21 12:11:12,034 INFO GetDefault initialized with URL
+2024-05-21 12:11:16,126 INFO React agent created successfully
+2024-05-21 12:11:16,127 INFO AgentExecutor created successfully
+2024-05-21 12:11:16,127 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:11:25,420 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:11:48,373 INFO Received query: I couldn't find relevant information about the differences between a Cultpass Pro and Elite membership in the provided context. Please check the Cult.fit website or contact their support team for more detailed information.
+2024-05-21 12:11:53,295 INFO Answered successfully
+2024-05-21 12:11:57,269 INFO Input cleaned successfully
+2024-05-21 12:11:57,288 INFO CultFAQChain initialized successfully
+2024-05-21 12:11:57,288 INFO GetGym initialized with URL
+2024-05-21 12:11:57,288 INFO PriceRetriever initialized with URLs
+2024-05-21 12:11:57,288 INFO GetDefault initialized with URL
+2024-05-21 12:12:00,954 INFO React agent created successfully
+2024-05-21 12:12:00,955 INFO AgentExecutor created successfully
+2024-05-21 12:12:00,955 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:12:13,943 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:12:37,182 INFO Answered successfully
+2024-05-21 12:16:30,968 INFO Input cleaned successfully
+2024-05-21 12:16:31,014 INFO CSV loaded successfully
+2024-05-21 12:16:31,027 INFO Collection rag-chroma is not created.
+2024-05-21 12:16:47,335 INFO CultFAQChain initialized successfully
+2024-05-21 12:16:47,335 INFO GetGym initialized with URL
+2024-05-21 12:16:47,335 INFO PriceRetriever initialized with URLs
+2024-05-21 12:16:47,335 INFO GetDefault initialized with URL
+2024-05-21 12:16:51,052 INFO React agent created successfully
+2024-05-21 12:16:51,053 INFO AgentExecutor created successfully
+2024-05-21 12:16:51,053 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:17:13,449 INFO Received query: what is a pro gym
+
+(Continued in next response due to character limit)
+2024-05-21 12:17:29,187 INFO Answered successfully
+2024-05-21 12:22:40,771 INFO Input cleaned successfully
+2024-05-21 12:22:40,818 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:22:40,819 ERROR Error initializing CultFAQChain: Error loading data/faq_ans.csv
+2024-05-21 12:22:40,819 ERROR Error initializing CultAgentExecutor: Error loading data/faq_ans.csv
+2024-05-21 12:22:40,819 ERROR Error invoking agent: Error loading data/faq_ans.csv
+2024-05-21 12:22:40,819 INFO Answered successfully
+2024-05-21 12:22:46,252 INFO Input cleaned successfully
+2024-05-21 12:22:46,287 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:22:46,287 ERROR Error initializing CultFAQChain: Error loading data/faq_ans.csv
+2024-05-21 12:22:46,288 ERROR Error initializing CultAgentExecutor: Error loading data/faq_ans.csv
+2024-05-21 12:22:46,288 ERROR Error invoking agent: Error loading data/faq_ans.csv
+2024-05-21 12:22:46,288 INFO Answered successfully
+2024-05-21 12:24:34,594 INFO Input cleaned successfully
+2024-05-21 12:24:34,628 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:24:34,628 ERROR Error initializing CultFAQChain: Error loading data/faq_ans.csv
+2024-05-21 12:24:34,628 ERROR Error initializing CultAgentExecutor: Error loading data/faq_ans.csv
+2024-05-21 12:24:34,628 ERROR Error invoking agent: Error loading data/faq_ans.csv
+2024-05-21 12:24:34,628 INFO Answered successfully
+2024-05-21 12:25:44,797 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:25:44,817 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:26:24,265 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:28:12,275 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:28:15,007 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:28:16,892 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:28:35,206 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:18,777 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:22,369 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:22,965 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:23,270 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:23,793 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:23,971 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:24,147 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:29:24,756 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:30:12,689 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:30:13,807 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:30:35,149 ERROR Error initializing CreateRetriever: name 'loader' is not defined
+2024-05-21 12:31:03,296 ERROR Error initializing CreateRetriever: can only concatenate str (not "CSVLoader") to str
+2024-05-21 12:31:22,614 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:32:50,828 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:33:30,000 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:36:16,738 INFO Input cleaned successfully
+2024-05-21 12:36:16,940 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:36:16,940 ERROR Error initializing CultFAQChain: Error loading data/faq_ans.csv
+2024-05-21 12:36:16,940 ERROR Error initializing CultAgentExecutor: Error loading data/faq_ans.csv
+2024-05-21 12:36:16,940 ERROR Error invoking agent: Error loading data/faq_ans.csv
+2024-05-21 12:36:16,941 INFO Answered successfully
+2024-05-21 12:36:25,618 INFO Input cleaned successfully
+2024-05-21 12:36:25,643 ERROR Error initializing CreateRetriever: Error loading data/faq_ans.csv
+2024-05-21 12:36:25,645 ERROR Error initializing CultFAQChain: Error loading data/faq_ans.csv
+2024-05-21 12:36:25,645 ERROR Error initializing CultAgentExecutor: Error loading data/faq_ans.csv
+2024-05-21 12:36:25,645 ERROR Error invoking agent: Error loading data/faq_ans.csv
+2024-05-21 12:36:25,646 INFO Answered successfully
+2024-05-21 12:37:51,517 INFO Input cleaned successfully
+2024-05-21 12:37:51,541 INFO CSV loaded successfully
+2024-05-21 12:37:51,869 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-21 12:37:51,944 INFO Collection rag-chroma is not created.
+2024-05-21 12:38:08,237 INFO CultFAQChain initialized successfully
+2024-05-21 12:38:08,237 INFO GetGym initialized with URL
+2024-05-21 12:38:08,237 INFO PriceRetriever initialized with URLs
+2024-05-21 12:38:08,237 INFO GetDefault initialized with URL
+2024-05-21 12:38:12,508 INFO React agent created successfully
+2024-05-21 12:38:12,509 INFO AgentExecutor created successfully
+2024-05-21 12:38:12,509 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:38:32,625 INFO Received query: how are you
+2024-05-21 12:38:44,521 INFO Received query: how are you
+2024-05-21 12:38:51,674 INFO Received query: how are you
+2024-05-21 12:38:58,767 INFO Received query: how are you
+2024-05-21 12:39:06,010 INFO Received query: how are you
+2024-05-21 12:39:18,993 INFO Received query: how are you
+2024-05-21 12:39:26,993 INFO Received query: how are you
+2024-05-21 12:39:34,910 INFO Received query: how are you
+2024-05-21 12:39:34,911 INFO Answered successfully
+2024-05-21 12:39:49,217 INFO Input cleaned successfully
+2024-05-21 12:39:49,270 INFO CSV loaded successfully
+2024-05-21 12:39:49,286 INFO Collection rag-chroma is not created.
+2024-05-21 12:40:05,211 INFO CultFAQChain initialized successfully
+2024-05-21 12:40:05,211 INFO GetGym initialized with URL
+2024-05-21 12:40:05,211 INFO PriceRetriever initialized with URLs
+2024-05-21 12:40:05,211 INFO GetDefault initialized with URL
+2024-05-21 12:40:09,315 INFO React agent created successfully
+2024-05-21 12:40:09,316 INFO AgentExecutor created successfully
+2024-05-21 12:40:09,316 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:40:32,071 INFO Answered successfully
+2024-05-21 12:41:26,237 INFO Input cleaned successfully
+2024-05-21 12:41:26,281 INFO CSV loaded successfully
+2024-05-21 12:41:26,299 INFO Collection rag-chroma is not created.
+2024-05-21 12:41:42,516 INFO CultFAQChain initialized successfully
+2024-05-21 12:41:42,517 INFO GetGym initialized with URL
+2024-05-21 12:41:42,517 INFO PriceRetriever initialized with URLs
+2024-05-21 12:41:42,517 INFO GetDefault initialized with URL
+2024-05-21 12:41:47,082 INFO React agent created successfully
+2024-05-21 12:41:47,083 INFO AgentExecutor created successfully
+2024-05-21 12:41:47,083 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:42:04,452 INFO Received query: how are you
+2024-05-21 12:42:13,901 INFO Answered successfully
+2024-05-21 12:44:09,840 INFO Chatbot processing started
+2024-05-21 12:44:09,840 INFO Input cleaned successfully
+2024-05-21 12:44:09,865 INFO CSV loaded successfully
+2024-05-21 12:44:09,876 INFO Collection rag-chroma is not created.
+2024-05-21 12:44:26,373 INFO CultFAQChain initialized successfully
+2024-05-21 12:44:26,373 INFO GetGym initialized with URL
+2024-05-21 12:44:26,373 INFO PriceRetriever initialized with URLs
+2024-05-21 12:44:26,373 INFO GetDefault initialized with URL
+2024-05-21 12:44:30,110 INFO React agent created successfully
+2024-05-21 12:44:30,111 INFO AgentExecutor created successfully
+2024-05-21 12:44:30,111 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:44:51,114 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:45:07,429 INFO Answered successfully
+2024-05-21 12:46:32,568 INFO Input cleaned successfully
+2024-05-21 12:46:32,591 INFO CSV loaded successfully
+2024-05-21 12:46:32,602 INFO Collection rag-chroma is not created.
+2024-05-21 12:46:49,885 INFO CultFAQChain initialized successfully
+2024-05-21 12:46:49,885 INFO GetGym initialized with URL
+2024-05-21 12:46:49,885 INFO PriceRetriever initialized with URLs
+2024-05-21 12:46:49,885 INFO GetDefault initialized with URL
+2024-05-21 12:46:54,283 INFO React agent created successfully
+2024-05-21 12:46:54,283 INFO AgentExecutor created successfully
+2024-05-21 12:46:54,283 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:47:14,535 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:47:35,340 INFO Answered successfully
+2024-05-21 12:48:11,926 INFO Input cleaned successfully
+2024-05-21 12:48:11,953 INFO CSV loaded successfully
+2024-05-21 12:48:11,965 INFO Collection rag-chroma is not created.
+2024-05-21 12:48:27,562 INFO CultFAQChain initialized successfully
+2024-05-21 12:48:27,562 INFO GetGym initialized with URL
+2024-05-21 12:48:27,562 INFO PriceRetriever initialized with URLs
+2024-05-21 12:48:27,562 INFO GetDefault initialized with URL
+2024-05-21 12:48:31,976 INFO React agent created successfully
+2024-05-21 12:48:31,977 INFO AgentExecutor created successfully
+2024-05-21 12:48:31,977 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:48:54,335 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:49:33,609 INFO Answered successfully
+2024-05-21 12:50:33,171 INFO Input cleaned successfully
+2024-05-21 12:50:33,206 INFO CSV loaded successfully
+2024-05-21 12:50:33,220 INFO Collection rag-chroma is not created.
+2024-05-21 12:50:49,894 INFO CultFAQChain initialized successfully
+2024-05-21 12:50:49,894 INFO GetGym initialized with URL
+2024-05-21 12:50:49,894 INFO PriceRetriever initialized with URLs
+2024-05-21 12:50:49,894 INFO GetDefault initialized with URL
+2024-05-21 12:50:53,904 INFO React agent created successfully
+2024-05-21 12:50:53,904 INFO AgentExecutor created successfully
+2024-05-21 12:50:53,904 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:51:15,562 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 12:51:46,410 INFO Answered successfully
+2024-05-21 12:52:03,549 INFO Input cleaned successfully
+2024-05-21 12:52:03,573 INFO CSV loaded successfully
+2024-05-21 12:52:03,585 INFO Collection rag-chroma is not created.
+2024-05-21 12:52:20,856 INFO CultFAQChain initialized successfully
+2024-05-21 12:52:20,856 INFO GetGym initialized with URL
+2024-05-21 12:52:20,856 INFO PriceRetriever initialized with URLs
+2024-05-21 12:52:20,856 INFO GetDefault initialized with URL
+2024-05-21 12:52:25,513 INFO React agent created successfully
+2024-05-21 12:52:25,515 INFO AgentExecutor created successfully
+2024-05-21 12:52:25,515 INFO CultAgentExecutor initialized successfully
+2024-05-21 12:52:41,619 INFO Received query: what is the price of elite pass
+2024-05-21 12:52:41,621 INFO Query matched 'elite'
+2024-05-21 12:52:56,550 INFO Answered successfully
+2024-05-21 13:35:24,265 INFO Input cleaned successfully
+2024-05-21 13:35:24,317 INFO CSV loaded successfully
+2024-05-21 13:35:24,335 INFO Collection rag-chroma is not created.
+2024-05-21 13:35:40,889 INFO CultFAQChain initialized successfully
+2024-05-21 13:35:40,890 INFO GetGym initialized with URL
+2024-05-21 13:35:40,890 INFO PriceRetriever initialized with URLs
+2024-05-21 13:35:40,890 INFO GetDefault initialized with URL
+2024-05-21 13:35:45,795 INFO React agent created successfully
+2024-05-21 13:35:45,797 INFO AgentExecutor created successfully
+2024-05-21 13:35:45,797 INFO CultAgentExecutor initialized successfully
+2024-05-21 13:36:05,936 INFO Received query: what is the price of elite pass
+2024-05-21 13:36:05,937 INFO Query matched 'elite'
+2024-05-21 13:36:09,296 INFO Answered successfully
+2024-05-21 13:37:29,082 INFO Input cleaned successfully
+2024-05-21 13:37:29,271 INFO CSV loaded successfully
+2024-05-21 13:37:29,632 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-21 13:37:29,709 INFO Collection rag-chroma is not created.
+2024-05-21 13:37:46,539 INFO CultFAQChain initialized successfully
+2024-05-21 13:37:46,539 INFO GetGym initialized with URL
+2024-05-21 13:37:46,539 INFO PriceRetriever initialized with URLs
+2024-05-21 13:37:46,539 INFO GetDefault initialized with URL
+2024-05-21 13:37:50,872 INFO React agent created successfully
+2024-05-21 13:37:50,872 INFO AgentExecutor created successfully
+2024-05-21 13:37:50,872 INFO CultAgentExecutor initialized successfully
+2024-05-21 13:38:17,601 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 13:38:36,230 INFO Answered successfully
+2024-05-21 15:06:49,733 INFO Input cleaned successfully
+2024-05-21 15:06:49,903 INFO CSV loaded successfully
+2024-05-21 15:06:50,266 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-21 15:06:50,343 INFO Collection rag-chroma is not created.
+2024-05-21 15:07:07,937 INFO CultFAQChain initialized successfully
+2024-05-21 15:07:07,937 INFO GetGym initialized with URL
+2024-05-21 15:07:07,937 INFO PriceRetriever initialized with URLs
+2024-05-21 15:07:07,937 INFO GetDefault initialized with URL
+2024-05-21 15:07:12,114 INFO React agent created successfully
+2024-05-21 15:07:12,115 INFO AgentExecutor created successfully
+2024-05-21 15:07:12,116 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:07:36,000 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 15:08:07,290 INFO Received query: I couldn't find specific information about the difference between an Elite and a Pro pass from the context. The user query asked for a comparison between the two passes, but the context did not provide enough detail to answer that question accurately. To get a definitive answer, it would be best for the user to contact Cult support or visit their website for more detailed information on the differences between these membership tiers.
+2024-05-21 15:08:20,883 INFO Received query: I cannot directly answer the question as the context does not provide enough details about the differences between a Cult Elite pass and a Cult Pro pass. To get an accurate answer, the user should contact Cult support or visit their website for more detailed information on the differences between these membership tiers.
+2024-05-21 15:08:25,826 INFO Answered successfully
+2024-05-21 15:09:11,056 INFO Input cleaned successfully
+2024-05-21 15:09:11,089 INFO CSV loaded successfully
+2024-05-21 15:09:11,103 INFO Collection rag-chroma is not created.
+2024-05-21 15:09:27,421 INFO CultFAQChain initialized successfully
+2024-05-21 15:09:27,422 INFO GetGym initialized with URL
+2024-05-21 15:09:27,422 INFO PriceRetriever initialized with URLs
+2024-05-21 15:09:27,422 INFO GetDefault initialized with URL
+2024-05-21 15:09:32,052 INFO React agent created successfully
+2024-05-21 15:09:32,053 INFO AgentExecutor created successfully
+2024-05-21 15:09:32,053 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:09:51,573 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 15:10:14,787 INFO Answered successfully
+2024-05-21 15:10:22,027 INFO Input cleaned successfully
+2024-05-21 15:10:22,053 INFO CSV loaded successfully
+2024-05-21 15:10:22,068 INFO Collection rag-chroma is not created.
+2024-05-21 15:10:38,290 INFO CultFAQChain initialized successfully
+2024-05-21 15:10:38,290 INFO GetGym initialized with URL
+2024-05-21 15:10:38,290 INFO PriceRetriever initialized with URLs
+2024-05-21 15:10:38,290 INFO GetDefault initialized with URL
+2024-05-21 15:10:42,522 INFO React agent created successfully
+2024-05-21 15:10:42,523 INFO AgentExecutor created successfully
+2024-05-21 15:10:42,523 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:11:03,070 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 15:11:28,839 INFO Answered successfully
+2024-05-21 15:11:49,478 INFO Input cleaned successfully
+2024-05-21 15:11:49,503 INFO CSV loaded successfully
+2024-05-21 15:11:49,514 INFO Collection rag-chroma is not created.
+2024-05-21 15:12:06,014 INFO CultFAQChain initialized successfully
+2024-05-21 15:12:06,015 INFO GetGym initialized with URL
+2024-05-21 15:12:06,015 INFO PriceRetriever initialized with URLs
+2024-05-21 15:12:06,015 INFO GetDefault initialized with URL
+2024-05-21 15:12:10,020 INFO React agent created successfully
+2024-05-21 15:12:10,021 INFO AgentExecutor created successfully
+2024-05-21 15:12:10,021 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:12:30,006 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 15:12:59,981 INFO Answered successfully
+2024-05-21 15:13:28,372 INFO Input cleaned successfully
+2024-05-21 15:13:28,420 INFO CSV loaded successfully
+2024-05-21 15:13:28,437 INFO Collection rag-chroma is not created.
+2024-05-21 15:13:44,888 INFO CultFAQChain initialized successfully
+2024-05-21 15:13:44,888 INFO GetGym initialized with URL
+2024-05-21 15:13:44,888 INFO PriceRetriever initialized with URLs
+2024-05-21 15:13:44,888 INFO GetDefault initialized with URL
+2024-05-21 15:13:49,369 INFO React agent created successfully
+2024-05-21 15:13:49,369 INFO AgentExecutor created successfully
+2024-05-21 15:13:49,369 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:14:24,467 INFO Answered successfully
+2024-05-21 15:14:40,880 INFO Input cleaned successfully
+2024-05-21 15:14:40,906 INFO CSV loaded successfully
+2024-05-21 15:14:40,919 INFO Collection rag-chroma is not created.
+2024-05-21 15:14:57,322 INFO CultFAQChain initialized successfully
+2024-05-21 15:14:57,323 INFO GetGym initialized with URL
+2024-05-21 15:14:57,323 INFO PriceRetriever initialized with URLs
+2024-05-21 15:14:57,323 INFO GetDefault initialized with URL
+2024-05-21 15:15:01,684 INFO React agent created successfully
+2024-05-21 15:15:01,685 INFO AgentExecutor created successfully
+2024-05-21 15:15:01,685 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:15:23,301 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 15:15:44,181 INFO Answered successfully
+2024-05-21 15:16:38,498 INFO Input cleaned successfully
+2024-05-21 15:16:38,536 INFO CSV loaded successfully
+2024-05-21 15:16:38,551 INFO Collection rag-chroma is not created.
+2024-05-21 15:16:55,064 INFO CultFAQChain initialized successfully
+2024-05-21 15:16:55,064 INFO GetGym initialized with URL
+2024-05-21 15:16:55,064 INFO PriceRetriever initialized with URLs
+2024-05-21 15:16:55,064 INFO GetDefault initialized with URL
+2024-05-21 15:16:59,254 INFO React agent created successfully
+2024-05-21 15:16:59,255 INFO AgentExecutor created successfully
+2024-05-21 15:16:59,255 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:17:20,078 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 15:17:40,745 INFO Answered successfully
+2024-05-21 15:24:33,369 INFO Input cleaned successfully
+2024-05-21 15:24:33,419 INFO CSV loaded successfully
+2024-05-21 15:24:33,436 INFO Collection rag-chroma is not created.
+2024-05-21 15:24:33,442 ERROR Error initializing CreateRetriever: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x146f84950>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-05-21 15:24:33,442 ERROR Error initializing CultFAQChain: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x146f84950>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-05-21 15:24:33,442 ERROR Error initializing CultAgentExecutor: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x146f84950>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-05-21 15:24:33,442 ERROR Error invoking agent: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x146f84950>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-05-21 15:24:33,443 INFO Answered successfully
+2024-05-21 15:24:38,507 INFO Input cleaned successfully
+2024-05-21 15:24:38,540 INFO CSV loaded successfully
+2024-05-21 15:24:38,552 INFO Collection rag-chroma is not created.
+2024-05-21 15:24:53,876 INFO CultFAQChain initialized successfully
+2024-05-21 15:24:53,876 INFO GetGym initialized with URL
+2024-05-21 15:24:53,876 INFO PriceRetriever initialized with URLs
+2024-05-21 15:24:53,876 INFO GetDefault initialized with URL
+2024-05-21 15:24:58,312 INFO React agent created successfully
+2024-05-21 15:24:58,312 INFO AgentExecutor created successfully
+2024-05-21 15:24:58,312 INFO CultAgentExecutor initialized successfully
+2024-05-21 15:25:28,758 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 15:25:54,994 INFO Answered successfully
+2024-05-21 20:39:00,341 INFO Input cleaned successfully
+2024-05-21 20:39:00,545 INFO CSV loaded successfully
+2024-05-21 20:39:00,938 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-21 20:39:01,023 INFO Collection rag-chroma is not created.
+2024-05-21 20:39:17,624 INFO CultFAQChain initialized successfully
+2024-05-21 20:39:17,629 INFO GetGym initialized with URL
+2024-05-21 20:39:17,629 INFO PriceRetriever initialized with URLs
+2024-05-21 20:39:17,629 INFO GetDefault initialized with URL
+2024-05-21 20:39:21,865 INFO React agent created successfully
+2024-05-21 20:39:21,866 INFO AgentExecutor created successfully
+2024-05-21 20:39:21,866 INFO CultAgentExecutor initialized successfully
+2024-05-21 20:39:50,410 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 20:40:12,069 INFO Answered successfully
+2024-05-21 20:40:58,782 INFO Input cleaned successfully
+2024-05-21 20:40:58,811 INFO CSV loaded successfully
+2024-05-21 20:40:58,825 INFO Collection rag-chroma is not created.
+2024-05-21 20:41:15,278 INFO CultFAQChain initialized successfully
+2024-05-21 20:41:15,278 INFO GetGym initialized with URL
+2024-05-21 20:41:15,278 INFO PriceRetriever initialized with URLs
+2024-05-21 20:41:15,278 INFO GetDefault initialized with URL
+2024-05-21 20:41:19,793 INFO React agent created successfully
+2024-05-21 20:41:19,793 INFO AgentExecutor created successfully
+2024-05-21 20:41:19,793 INFO CultAgentExecutor initialized successfully
+2024-05-21 20:41:41,398 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 20:42:03,292 INFO Received query: I can't answer the following question directly, but you can find comprehensive information about why you should buy a Cultpass Elite membership on our official support website.
+2024-05-21 20:42:09,612 INFO Answered successfully
+2024-05-21 22:27:21,045 INFO Input cleaned successfully
+2024-05-21 22:27:21,070 INFO CSV loaded successfully
+2024-05-21 22:27:21,084 INFO Collection rag-chroma is not created.
+2024-05-21 22:27:38,431 INFO CultFAQChain initialized successfully
+2024-05-21 22:27:38,431 INFO GetGym initialized with URL
+2024-05-21 22:27:38,431 INFO PriceRetriever initialized with URLs
+2024-05-21 22:27:38,431 INFO GetDefault initialized with URL
+2024-05-21 22:27:42,665 INFO React agent created successfully
+2024-05-21 22:27:42,666 INFO AgentExecutor created successfully
+2024-05-21 22:27:42,666 INFO CultAgentExecutor initialized successfully
+2024-05-21 22:28:07,135 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 22:28:30,852 INFO Answered successfully
+2024-05-21 22:29:02,779 INFO Input cleaned successfully
+2024-05-21 22:29:02,803 INFO CSV loaded successfully
+2024-05-21 22:29:02,816 INFO Collection rag-chroma is not created.
+2024-05-21 22:29:19,255 INFO CultFAQChain initialized successfully
+2024-05-21 22:29:19,259 INFO GetGym initialized with URL
+2024-05-21 22:29:19,259 INFO PriceRetriever initialized with URLs
+2024-05-21 22:29:19,259 INFO GetDefault initialized with URL
+2024-05-21 22:29:23,594 INFO React agent created successfully
+2024-05-21 22:29:23,595 INFO AgentExecutor created successfully
+2024-05-21 22:29:23,595 INFO CultAgentExecutor initialized successfully
+2024-05-21 22:29:42,584 INFO Received query: Which gyms can I access if I have an Elite pass?"
+
+(Assuming the function returns a list of accessible gyms)
+2024-05-21 22:29:53,113 INFO Answered successfully
+2024-05-21 22:30:13,838 INFO Input cleaned successfully
+2024-05-21 22:30:13,874 INFO CSV loaded successfully
+2024-05-21 22:30:13,888 INFO Collection rag-chroma is not created.
+2024-05-21 22:30:30,167 INFO CultFAQChain initialized successfully
+2024-05-21 22:30:30,171 INFO GetGym initialized with URL
+2024-05-21 22:30:30,171 INFO PriceRetriever initialized with URLs
+2024-05-21 22:30:30,171 INFO GetDefault initialized with URL
+2024-05-21 22:30:34,400 INFO React agent created successfully
+2024-05-21 22:30:34,402 INFO AgentExecutor created successfully
+2024-05-21 22:30:34,402 INFO CultAgentExecutor initialized successfully
+2024-05-21 22:30:52,144 INFO Received query: Which gyms can I access with an Elite Cultpass in my area?
+2024-05-21 22:30:57,784 INFO Answered successfully
+2024-05-22 10:16:28,210 INFO Input cleaned successfully
+2024-05-22 10:16:28,395 INFO CSV loaded successfully
+2024-05-22 10:16:28,741 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-22 10:16:28,818 INFO Collection rag-chroma is not created.
+2024-05-22 10:16:45,056 INFO CultFAQChain initialized successfully
+2024-05-22 10:16:45,060 INFO GetGym initialized with URL
+2024-05-22 10:16:45,060 INFO PriceRetriever initialized with URLs
+2024-05-22 10:16:45,060 INFO GetDefault initialized with URL
+2024-05-22 10:16:48,984 INFO React agent created successfully
+2024-05-22 10:16:48,984 INFO AgentExecutor created successfully
+2024-05-22 10:16:48,984 INFO CultAgentExecutor initialized successfully
+2024-05-22 10:17:20,423 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 10:17:37,561 INFO Answered successfully
+2024-05-22 11:15:05,005 INFO Input cleaned successfully
+2024-05-22 11:15:05,042 INFO CSV loaded successfully
+2024-05-22 11:15:05,058 INFO Collection rag-chroma is not created.
+2024-05-22 11:15:21,378 INFO CultFAQChain initialized successfully
+2024-05-22 11:15:21,378 INFO GetGym initialized with URL
+2024-05-22 11:15:21,378 INFO PriceRetriever initialized with URLs
+2024-05-22 11:15:21,378 INFO GetDefault initialized with URL
+2024-05-22 11:15:25,642 INFO React agent created successfully
+2024-05-22 11:15:25,643 INFO AgentExecutor created successfully
+2024-05-22 11:15:25,643 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:15:50,497 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:16:07,049 INFO Answered successfully
+2024-05-22 11:16:26,804 INFO Input cleaned successfully
+2024-05-22 11:16:26,831 INFO CSV loaded successfully
+2024-05-22 11:16:26,841 INFO Collection rag-chroma is not created.
+2024-05-22 11:16:43,208 INFO CultFAQChain initialized successfully
+2024-05-22 11:16:43,208 INFO GetGym initialized with URL
+2024-05-22 11:16:43,208 INFO PriceRetriever initialized with URLs
+2024-05-22 11:16:43,208 INFO GetDefault initialized with URL
+2024-05-22 11:16:47,235 INFO React agent created successfully
+2024-05-22 11:16:47,235 INFO AgentExecutor created successfully
+2024-05-22 11:16:47,235 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:17:11,623 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:17:30,482 INFO Answered successfully
+2024-05-22 11:17:55,118 INFO Input cleaned successfully
+2024-05-22 11:17:55,145 INFO CSV loaded successfully
+2024-05-22 11:17:55,157 INFO Collection rag-chroma is not created.
+2024-05-22 11:18:12,048 INFO CultFAQChain initialized successfully
+2024-05-22 11:18:12,048 INFO GetGym initialized with URL
+2024-05-22 11:18:12,048 INFO PriceRetriever initialized with URLs
+2024-05-22 11:18:12,048 INFO GetDefault initialized with URL
+2024-05-22 11:18:16,361 INFO React agent created successfully
+2024-05-22 11:18:16,362 INFO AgentExecutor created successfully
+2024-05-22 11:18:16,362 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:18:40,695 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:19:00,245 INFO Answered successfully
+2024-05-22 11:19:37,436 INFO Input cleaned successfully
+2024-05-22 11:19:37,483 INFO CSV loaded successfully
+2024-05-22 11:19:37,500 INFO Collection rag-chroma is not created.
+2024-05-22 11:19:53,940 INFO CultFAQChain initialized successfully
+2024-05-22 11:19:53,940 INFO GetGym initialized with URL
+2024-05-22 11:19:53,940 INFO PriceRetriever initialized with URLs
+2024-05-22 11:19:53,940 INFO GetDefault initialized with URL
+2024-05-22 11:19:57,947 INFO React agent created successfully
+2024-05-22 11:19:57,948 INFO AgentExecutor created successfully
+2024-05-22 11:19:57,948 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:20:13,986 INFO Received query: what is the price of elite pass
+2024-05-22 11:20:13,987 INFO Query matched 'elite'
+2024-05-22 11:20:19,007 INFO Answered successfully
+2024-05-22 11:27:44,312 INFO Input cleaned successfully
+2024-05-22 11:27:44,353 INFO CSV loaded successfully
+2024-05-22 11:27:44,367 INFO Collection rag-chroma is not created.
+2024-05-22 11:28:01,201 INFO CultFAQChain initialized successfully
+2024-05-22 11:28:01,201 INFO GetGym initialized with URL
+2024-05-22 11:28:01,201 INFO PriceRetriever initialized with URLs
+2024-05-22 11:28:01,201 INFO GetDefault initialized with URL
+2024-05-22 11:28:05,833 INFO React agent created successfully
+2024-05-22 11:28:05,834 INFO AgentExecutor created successfully
+2024-05-22 11:28:05,834 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:28:38,393 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:28:59,782 INFO Answered successfully
+2024-05-22 11:34:27,151 INFO Input cleaned successfully
+2024-05-22 11:34:27,181 INFO CSV loaded successfully
+2024-05-22 11:34:27,194 INFO Collection rag-chroma is not created.
+2024-05-22 11:34:43,752 INFO CultFAQChain initialized successfully
+2024-05-22 11:34:43,752 INFO GetGym initialized with URL
+2024-05-22 11:34:43,752 INFO PriceRetriever initialized with URLs
+2024-05-22 11:34:43,752 INFO GetDefault initialized with URL
+2024-05-22 11:34:47,585 INFO React agent created successfully
+2024-05-22 11:34:47,586 INFO AgentExecutor created successfully
+2024-05-22 11:34:47,586 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:35:10,920 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:35:32,842 INFO Received query: I cannot answer the question as there is no clear context provided regarding the differences between Cultpass Elite and Cultpass Pro.
+2024-05-22 11:35:52,815 INFO Input cleaned successfully
+2024-05-22 11:35:52,850 INFO CSV loaded successfully
+2024-05-22 11:35:52,862 INFO Collection rag-chroma is not created.
+2024-05-22 11:36:08,876 INFO CultFAQChain initialized successfully
+2024-05-22 11:36:08,876 INFO GetGym initialized with URL
+2024-05-22 11:36:08,876 INFO PriceRetriever initialized with URLs
+2024-05-22 11:36:08,876 INFO GetDefault initialized with URL
+2024-05-22 11:36:12,766 INFO React agent created successfully
+2024-05-22 11:36:12,767 INFO AgentExecutor created successfully
+2024-05-22 11:36:12,767 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:36:37,597 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:37:35,281 INFO Input cleaned successfully
+2024-05-22 11:37:35,336 INFO CSV loaded successfully
+2024-05-22 11:37:35,353 INFO Collection rag-chroma is not created.
+2024-05-22 11:37:52,660 INFO CultFAQChain initialized successfully
+2024-05-22 11:37:52,660 INFO GetGym initialized with URL
+2024-05-22 11:37:52,660 INFO PriceRetriever initialized with URLs
+2024-05-22 11:37:52,660 INFO GetDefault initialized with URL
+2024-05-22 11:37:56,351 INFO React agent created successfully
+2024-05-22 11:37:56,353 INFO AgentExecutor created successfully
+2024-05-22 11:37:56,353 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:38:24,662 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:38:56,488 INFO Input cleaned successfully
+2024-05-22 11:38:56,540 INFO CSV loaded successfully
+2024-05-22 11:38:56,557 INFO Collection rag-chroma is not created.
+2024-05-22 11:39:12,767 INFO CultFAQChain initialized successfully
+2024-05-22 11:39:12,768 INFO GetGym initialized with URL
+2024-05-22 11:39:12,768 INFO PriceRetriever initialized with URLs
+2024-05-22 11:39:12,768 INFO GetDefault initialized with URL
+2024-05-22 11:39:16,880 INFO React agent created successfully
+2024-05-22 11:39:16,881 INFO AgentExecutor created successfully
+2024-05-22 11:39:16,881 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:39:39,116 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:40:01,863 INFO Received query: I cannot answer that question as there is no information provided about the differences between Cultpass Elite and Pro memberships in the context given. Please check the official Cult.fit website or contact their support team for more details.
+2024-05-22 11:40:48,773 INFO Input cleaned successfully
+2024-05-22 11:40:48,819 INFO CSV loaded successfully
+2024-05-22 11:40:48,836 INFO Collection rag-chroma is not created.
+2024-05-22 11:41:05,125 INFO CultFAQChain initialized successfully
+2024-05-22 11:41:05,125 INFO GetGym initialized with URL
+2024-05-22 11:41:05,125 INFO PriceRetriever initialized with URLs
+2024-05-22 11:41:05,125 INFO GetDefault initialized with URL
+2024-05-22 11:41:08,959 INFO React agent created successfully
+2024-05-22 11:41:08,959 INFO AgentExecutor created successfully
+2024-05-22 11:41:08,959 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:41:32,498 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:41:58,313 INFO Input cleaned successfully
+2024-05-22 11:41:58,336 INFO CSV loaded successfully
+2024-05-22 11:41:58,349 INFO Collection rag-chroma is not created.
+2024-05-22 11:42:14,844 INFO CultFAQChain initialized successfully
+2024-05-22 11:42:14,845 INFO GetGym initialized with URL
+2024-05-22 11:42:14,845 INFO PriceRetriever initialized with URLs
+2024-05-22 11:42:14,845 INFO GetDefault initialized with URL
+2024-05-22 11:42:19,503 INFO React agent created successfully
+2024-05-22 11:42:19,503 INFO AgentExecutor created successfully
+2024-05-22 11:42:19,503 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:42:41,096 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:54:28,248 INFO Input cleaned successfully
+2024-05-22 11:54:28,275 INFO CSV loaded successfully
+2024-05-22 11:54:28,287 INFO Collection rag-chroma is not created.
+2024-05-22 11:54:45,067 INFO CultFAQChain initialized successfully
+2024-05-22 11:54:45,067 INFO GetGym initialized with URL
+2024-05-22 11:54:45,067 INFO PriceRetriever initialized with URLs
+2024-05-22 11:54:45,067 INFO GetDefault initialized with URL
+2024-05-22 11:54:49,255 INFO React agent created successfully
+2024-05-22 11:54:49,257 INFO AgentExecutor created successfully
+2024-05-22 11:54:49,257 INFO CultAgentExecutor initialized successfully
+2024-05-22 11:55:10,568 INFO Received query: what is Elite gym
+2024-05-22 11:55:30,895 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:56:00,284 INFO Received query: I cannot directly answer the following question: what is Elite gym in Cult.
+2024-05-22 11:56:13,055 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:56:47,730 INFO Received query: I cannot directly answer the following question: Is there any specific feature or benefit associated with Elite gyms in Cult.
+2024-05-22 11:57:10,443 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:57:59,918 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:59:19,934 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 11:59:24,506 INFO Input cleaned successfully
+2024-05-22 11:59:24,567 INFO CSV loaded successfully
+2024-05-22 11:59:24,608 INFO Collection rag-chroma is not created.
+2024-05-22 12:00:28,776 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 12:01:29,171 INFO Input cleaned successfully
+2024-05-22 12:01:29,353 INFO CSV loaded successfully
+2024-05-22 12:01:29,717 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-22 12:01:29,793 INFO Collection rag-chroma is not created.
+2024-05-22 12:01:46,272 INFO CultFAQChain initialized successfully
+2024-05-22 12:01:46,272 INFO GetGym initialized with URL
+2024-05-22 12:01:46,272 INFO PriceRetriever initialized with URLs
+2024-05-22 12:01:46,272 INFO GetDefault initialized with URL
+2024-05-22 12:01:50,395 INFO React agent created successfully
+2024-05-22 12:01:50,396 INFO AgentExecutor created successfully
+2024-05-22 12:01:50,396 INFO CultAgentExecutor initialized successfully
+2024-05-22 12:02:16,430 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 12:28:05,766 INFO Input cleaned successfully
+2024-05-22 12:28:05,817 INFO CSV loaded successfully
+2024-05-22 12:28:05,835 INFO Collection rag-chroma is not created.
+2024-05-22 12:28:22,138 INFO CultFAQChain initialized successfully
+2024-05-22 12:28:22,138 INFO GetGym initialized with URL
+2024-05-22 12:28:22,138 INFO PriceRetriever initialized with URLs
+2024-05-22 12:28:22,138 INFO GetDefault initialized with URL
+2024-05-22 12:28:26,254 INFO React agent created successfully
+2024-05-22 12:28:26,255 INFO AgentExecutor created successfully
+2024-05-22 12:28:26,255 INFO CultAgentExecutor initialized successfully
+2024-05-22 12:28:56,654 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 12:47:10,903 INFO Input cleaned successfully
+2024-05-22 12:47:10,929 INFO CSV loaded successfully
+2024-05-22 12:47:10,934 ERROR Error initializing CreateRetriever: module 'os' has no attribute 'get_env'
+2024-05-22 12:47:10,935 ERROR Error initializing CultFAQChain: module 'os' has no attribute 'get_env'
+2024-05-22 12:47:10,935 ERROR Error initializing CultAgentExecutor: module 'os' has no attribute 'get_env'
+2024-05-22 12:47:10,935 ERROR Error invoking agent: module 'os' has no attribute 'get_env'
+2024-05-22 12:47:53,806 INFO Input cleaned successfully
+2024-05-22 12:47:53,832 INFO CSV loaded successfully
+2024-05-22 12:47:53,837 ERROR Error initializing CreateRetriever: 'Pinecone' object has no attribute 'index'
+2024-05-22 12:47:53,838 ERROR Error initializing CultFAQChain: 'Pinecone' object has no attribute 'index'
+2024-05-22 12:47:53,838 ERROR Error initializing CultAgentExecutor: 'Pinecone' object has no attribute 'index'
+2024-05-22 12:47:53,838 ERROR Error invoking agent: 'Pinecone' object has no attribute 'index'
+2024-05-22 12:49:44,747 INFO Input cleaned successfully
+2024-05-22 12:49:44,777 INFO CSV loaded successfully
+2024-05-22 12:50:26,085 INFO CultFAQChain initialized successfully
+2024-05-22 12:50:26,085 INFO GetGym initialized with URL
+2024-05-22 12:50:26,086 INFO PriceRetriever initialized with URLs
+2024-05-22 12:50:26,086 INFO GetDefault initialized with URL
+2024-05-22 12:50:30,160 INFO React agent created successfully
+2024-05-22 12:50:30,160 INFO AgentExecutor created successfully
+2024-05-22 12:50:30,161 INFO CultAgentExecutor initialized successfully
+2024-05-22 12:51:02,908 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 12:55:00,144 INFO Input cleaned successfully
+2024-05-22 12:55:00,180 INFO CSV loaded successfully
+2024-05-22 12:55:21,144 INFO CultFAQChain initialized successfully
+2024-05-22 12:55:21,144 INFO GetGym initialized with URL
+2024-05-22 12:55:21,144 INFO PriceRetriever initialized with URLs
+2024-05-22 12:55:21,144 INFO GetDefault initialized with URL
+2024-05-22 12:55:25,108 INFO React agent created successfully
+2024-05-22 12:55:25,109 INFO AgentExecutor created successfully
+2024-05-22 12:55:25,110 INFO CultAgentExecutor initialized successfully
+2024-05-22 12:55:48,552 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 12:56:09,897 INFO Answered successfully
+2024-05-22 12:58:34,764 INFO Input cleaned successfully
+2024-05-22 12:58:34,813 INFO CSV loaded successfully
+2024-05-22 12:58:57,982 INFO CultFAQChain initialized successfully
+2024-05-22 12:58:57,982 INFO GetGym initialized with URL
+2024-05-22 12:58:57,983 INFO PriceRetriever initialized with URLs
+2024-05-22 12:58:57,983 INFO GetDefault initialized with URL
+2024-05-22 12:59:02,589 INFO React agent created successfully
+2024-05-22 12:59:02,590 INFO AgentExecutor created successfully
+2024-05-22 12:59:02,590 INFO CultAgentExecutor initialized successfully
+2024-05-22 12:59:31,016 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 12:59:57,283 INFO Answered successfully
+2024-05-22 13:00:43,371 INFO Input cleaned successfully
+2024-05-22 13:00:43,421 INFO CSV loaded successfully
+2024-05-22 13:01:05,148 INFO CultFAQChain initialized successfully
+2024-05-22 13:01:05,149 INFO GetGym initialized with URL
+2024-05-22 13:01:05,149 INFO PriceRetriever initialized with URLs
+2024-05-22 13:01:05,149 INFO GetDefault initialized with URL
+2024-05-22 13:01:09,270 INFO React agent created successfully
+2024-05-22 13:01:09,271 INFO AgentExecutor created successfully
+2024-05-22 13:01:09,271 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:01:44,632 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:02:12,439 INFO Answered successfully
+2024-05-22 13:05:56,907 INFO Input cleaned successfully
+2024-05-22 13:05:56,937 INFO CSV loaded successfully
+2024-05-22 13:05:57,739 ERROR Error initializing CreateRetriever: You have not configured your Nomic API token. Run `nomic login` to configure.
+2024-05-22 13:05:57,741 ERROR Error initializing CultFAQChain: You have not configured your Nomic API token. Run `nomic login` to configure.
+2024-05-22 13:05:57,741 ERROR Error initializing CultAgentExecutor: You have not configured your Nomic API token. Run `nomic login` to configure.
+2024-05-22 13:05:57,741 ERROR Error invoking agent: You have not configured your Nomic API token. Run `nomic login` to configure.
+2024-05-22 13:05:57,743 INFO Answered successfully
+2024-05-22 13:09:19,626 INFO Input cleaned successfully
+2024-05-22 13:09:19,662 INFO CSV loaded successfully
+2024-05-22 13:09:28,326 INFO CultFAQChain initialized successfully
+2024-05-22 13:09:28,326 INFO GetGym initialized with URL
+2024-05-22 13:09:28,326 INFO PriceRetriever initialized with URLs
+2024-05-22 13:09:28,326 INFO GetDefault initialized with URL
+2024-05-22 13:09:32,725 INFO React agent created successfully
+2024-05-22 13:09:32,726 INFO AgentExecutor created successfully
+2024-05-22 13:09:32,726 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:09:56,508 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:10:10,494 INFO Answered successfully
+2024-05-22 13:11:41,797 INFO Input cleaned successfully
+2024-05-22 13:11:41,837 INFO CSV loaded successfully
+2024-05-22 13:11:48,594 INFO CultFAQChain initialized successfully
+2024-05-22 13:11:48,594 INFO GetGym initialized with URL
+2024-05-22 13:11:48,595 INFO PriceRetriever initialized with URLs
+2024-05-22 13:11:48,595 INFO GetDefault initialized with URL
+2024-05-22 13:11:53,178 ERROR Error initializing CultAgentExecutor: name 'CHAT_MODEL_NAME' is not defined
+2024-05-22 13:11:53,179 ERROR Error invoking agent: name 'CHAT_MODEL_NAME' is not defined
+2024-05-22 13:11:53,181 INFO Answered successfully
+2024-05-22 13:12:24,811 INFO Input cleaned successfully
+2024-05-22 13:12:24,841 INFO CSV loaded successfully
+2024-05-22 13:12:31,333 INFO CultFAQChain initialized successfully
+2024-05-22 13:12:31,334 INFO GetGym initialized with URL
+2024-05-22 13:12:31,334 INFO PriceRetriever initialized with URLs
+2024-05-22 13:12:31,335 INFO GetDefault initialized with URL
+2024-05-22 13:12:35,706 ERROR Error initializing CultAgentExecutor: name 'CHAT_MODEL_NAME' is not defined
+2024-05-22 13:12:35,706 ERROR Error invoking agent: name 'CHAT_MODEL_NAME' is not defined
+2024-05-22 13:12:35,708 INFO Answered successfully
+2024-05-22 13:12:51,927 INFO Input cleaned successfully
+2024-05-22 13:12:51,957 INFO CSV loaded successfully
+2024-05-22 13:12:58,175 INFO CultFAQChain initialized successfully
+2024-05-22 13:12:58,176 INFO GetGym initialized with URL
+2024-05-22 13:12:58,176 INFO PriceRetriever initialized with URLs
+2024-05-22 13:12:58,176 INFO GetDefault initialized with URL
+2024-05-22 13:13:02,326 ERROR Error creating React agent: 'CultAgentExecutor' object has no attribute 'agent_chat_model'
+2024-05-22 13:13:02,326 ERROR Error initializing CultAgentExecutor: 'CultAgentExecutor' object has no attribute 'agent_chat_model'
+2024-05-22 13:13:02,326 ERROR Error invoking agent: 'CultAgentExecutor' object has no attribute 'agent_chat_model'
+2024-05-22 13:13:02,327 INFO Answered successfully
+2024-05-22 13:13:28,311 INFO Input cleaned successfully
+2024-05-22 13:13:28,341 INFO CSV loaded successfully
+2024-05-22 13:13:34,501 INFO CultFAQChain initialized successfully
+2024-05-22 13:13:34,502 INFO GetGym initialized with URL
+2024-05-22 13:13:34,502 INFO PriceRetriever initialized with URLs
+2024-05-22 13:13:34,502 INFO GetDefault initialized with URL
+2024-05-22 13:13:38,276 INFO React agent created successfully
+2024-05-22 13:13:38,277 INFO AgentExecutor created successfully
+2024-05-22 13:13:38,277 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:13:38,655 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:14:03,260 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:14:03,778 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:14:16,569 INFO Answered successfully
+2024-05-22 13:15:08,033 INFO Input cleaned successfully
+2024-05-22 13:15:08,053 INFO CSV loaded successfully
+2024-05-22 13:15:13,558 INFO CultFAQChain initialized successfully
+2024-05-22 13:15:13,559 INFO GetGym initialized with URL
+2024-05-22 13:15:13,559 INFO PriceRetriever initialized with URLs
+2024-05-22 13:15:13,559 INFO GetDefault initialized with URL
+2024-05-22 13:15:17,174 INFO React agent created successfully
+2024-05-22 13:15:17,174 INFO AgentExecutor created successfully
+2024-05-22 13:15:17,174 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:15:17,605 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:15:21,588 INFO Received query: i want to start my fitness journey what should i do
+2024-05-22 13:15:21,865 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:15:27,512 INFO Answered successfully
+2024-05-22 13:15:46,571 INFO Input cleaned successfully
+2024-05-22 13:15:46,591 INFO CSV loaded successfully
+2024-05-22 13:15:52,801 INFO CultFAQChain initialized successfully
+2024-05-22 13:15:52,802 INFO GetGym initialized with URL
+2024-05-22 13:15:52,802 INFO PriceRetriever initialized with URLs
+2024-05-22 13:15:52,802 INFO GetDefault initialized with URL
+2024-05-22 13:15:56,957 INFO React agent created successfully
+2024-05-22 13:15:56,957 INFO AgentExecutor created successfully
+2024-05-22 13:15:56,957 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:15:57,234 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:16:16,977 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:16:17,594 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:16:37,158 INFO Answered successfully
+2024-05-22 13:28:03,148 INFO Input cleaned successfully
+2024-05-22 13:28:03,180 INFO CSV loaded successfully
+2024-05-22 13:28:11,409 INFO CultFAQChain initialized successfully
+2024-05-22 13:28:11,410 INFO GetGym initialized with URL
+2024-05-22 13:28:11,410 INFO PriceRetriever initialized with URLs
+2024-05-22 13:28:11,410 INFO GetDefault initialized with URL
+2024-05-22 13:28:15,350 INFO React agent created successfully
+2024-05-22 13:28:15,350 INFO AgentExecutor created successfully
+2024-05-22 13:28:15,351 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:28:15,811 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:28:36,778 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:28:37,146 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:28:41,265 INFO Answered successfully
+2024-05-22 13:29:06,713 INFO Input cleaned successfully
+2024-05-22 13:29:06,746 INFO CSV loaded successfully
+2024-05-22 13:29:13,083 INFO CultFAQChain initialized successfully
+2024-05-22 13:29:13,084 INFO GetGym initialized with URL
+2024-05-22 13:29:13,084 INFO PriceRetriever initialized with URLs
+2024-05-22 13:29:13,084 INFO GetDefault initialized with URL
+2024-05-22 13:29:16,702 INFO React agent created successfully
+2024-05-22 13:29:16,702 INFO AgentExecutor created successfully
+2024-05-22 13:29:16,702 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:29:17,017 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:29:27,025 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:29:27,275 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:29:34,018 INFO Answered successfully
+2024-05-22 13:29:46,344 INFO Input cleaned successfully
+2024-05-22 13:29:46,364 INFO CSV loaded successfully
+2024-05-22 13:29:53,143 INFO CultFAQChain initialized successfully
+2024-05-22 13:29:53,144 INFO GetGym initialized with URL
+2024-05-22 13:29:53,144 INFO PriceRetriever initialized with URLs
+2024-05-22 13:29:53,144 INFO GetDefault initialized with URL
+2024-05-22 13:29:57,594 INFO React agent created successfully
+2024-05-22 13:29:57,594 INFO AgentExecutor created successfully
+2024-05-22 13:29:57,594 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:29:57,970 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:30:06,541 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:30:06,865 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:30:15,470 INFO Answered successfully
+2024-05-22 13:35:06,407 INFO Input cleaned successfully
+2024-05-22 13:35:06,434 INFO CSV loaded successfully
+2024-05-22 13:35:08,979 INFO Loading faiss.
+2024-05-22 13:35:09,319 INFO Successfully loaded faiss.
+2024-05-22 13:35:09,334 INFO CultFAQChain initialized successfully
+2024-05-22 13:35:09,334 INFO GetGym initialized with URL
+2024-05-22 13:35:09,334 INFO PriceRetriever initialized with URLs
+2024-05-22 13:35:09,334 INFO GetDefault initialized with URL
+2024-05-22 13:35:13,446 INFO React agent created successfully
+2024-05-22 13:35:13,446 INFO AgentExecutor created successfully
+2024-05-22 13:35:13,446 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:35:13,910 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:35:19,968 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:35:20,481 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:35:24,021 INFO Answered successfully
+2024-05-22 13:38:13,639 INFO Input cleaned successfully
+2024-05-22 13:38:13,673 INFO CSV loaded successfully
+2024-05-22 13:38:16,197 INFO CultFAQChain initialized successfully
+2024-05-22 13:38:16,197 INFO GetGym initialized with URL
+2024-05-22 13:38:16,197 INFO PriceRetriever initialized with URLs
+2024-05-22 13:38:16,197 INFO GetDefault initialized with URL
+2024-05-22 13:38:20,652 INFO React agent created successfully
+2024-05-22 13:38:20,653 INFO AgentExecutor created successfully
+2024-05-22 13:38:20,653 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:38:21,105 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:38:23,743 INFO Received query: what is the price of elite pass"
+
+(After receiving the response from the Price function)
+
+2024-05-22 13:38:23,743 INFO Query matched 'elite'
+2024-05-22 13:38:24,093 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:38:24,815 INFO Answered successfully
+2024-05-22 13:38:50,821 INFO Input cleaned successfully
+2024-05-22 13:38:50,839 INFO CSV loaded successfully
+2024-05-22 13:38:52,703 INFO CultFAQChain initialized successfully
+2024-05-22 13:38:52,703 INFO GetGym initialized with URL
+2024-05-22 13:38:52,703 INFO PriceRetriever initialized with URLs
+2024-05-22 13:38:52,703 INFO GetDefault initialized with URL
+2024-05-22 13:38:56,928 INFO React agent created successfully
+2024-05-22 13:38:56,928 INFO AgentExecutor created successfully
+2024-05-22 13:38:56,928 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:38:57,239 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:39:00,005 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:39:00,338 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:39:01,171 INFO Answered successfully
+2024-05-22 13:40:10,975 INFO Input cleaned successfully
+2024-05-22 13:40:10,995 INFO CSV loaded successfully
+2024-05-22 13:40:13,543 INFO CultFAQChain initialized successfully
+2024-05-22 13:40:13,543 INFO GetGym initialized with URL
+2024-05-22 13:40:13,543 INFO PriceRetriever initialized with URLs
+2024-05-22 13:40:13,543 INFO GetDefault initialized with URL
+2024-05-22 13:40:17,883 INFO React agent created successfully
+2024-05-22 13:40:17,883 INFO AgentExecutor created successfully
+2024-05-22 13:40:17,883 INFO CultAgentExecutor initialized successfully
+2024-05-22 13:40:18,256 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:40:22,388 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:40:22,658 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 13:40:23,989 INFO Answered successfully
+2024-05-22 14:19:54,879 INFO Input cleaned successfully
+2024-05-22 14:19:54,895 INFO CSV loaded successfully
+2024-05-22 14:19:57,528 INFO CultFAQChain initialized successfully
+2024-05-22 14:19:57,528 INFO GetGym initialized with URL
+2024-05-22 14:19:57,529 INFO PriceRetriever initialized with URLs
+2024-05-22 14:19:57,529 INFO GetDefault initialized with URL
+2024-05-22 14:20:01,281 INFO React agent created successfully
+2024-05-22 14:20:01,281 INFO AgentExecutor created successfully
+2024-05-22 14:20:01,281 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:20:01,739 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:20:04,635 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:20:04,921 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:20:05,684 INFO Answered successfully
+2024-05-22 14:22:35,503 INFO Input cleaned successfully
+2024-05-22 14:22:35,523 INFO CSV loaded successfully
+2024-05-22 14:22:38,080 INFO CultFAQChain initialized successfully
+2024-05-22 14:22:38,080 INFO GetGym initialized with URL
+2024-05-22 14:22:38,081 INFO PriceRetriever initialized with URLs
+2024-05-22 14:22:38,081 INFO GetDefault initialized with URL
+2024-05-22 14:22:42,143 INFO React agent created successfully
+2024-05-22 14:22:42,143 INFO AgentExecutor created successfully
+2024-05-22 14:22:42,143 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:22:42,497 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:22:43,082 INFO Received query: which gyms are near hsr
+2024-05-22 14:22:43,580 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:22:44,567 INFO Answered successfully
+2024-05-22 14:26:22,876 INFO CSV loaded successfully
+2024-05-22 14:26:24,410 INFO CSV loaded successfully
+2024-05-22 14:26:25,527 INFO CultFAQChain initialized successfully
+2024-05-22 14:26:25,527 INFO GetGym initialized with URL
+2024-05-22 14:26:25,527 INFO PriceRetriever initialized with URLs
+2024-05-22 14:26:25,527 INFO GetDefault initialized with URL
+2024-05-22 14:26:26,460 INFO CultFAQChain initialized successfully
+2024-05-22 14:26:26,460 INFO GetGym initialized with URL
+2024-05-22 14:26:26,460 INFO PriceRetriever initialized with URLs
+2024-05-22 14:26:26,460 INFO GetDefault initialized with URL
+2024-05-22 14:26:29,705 INFO React agent created successfully
+2024-05-22 14:26:29,706 INFO AgentExecutor created successfully
+2024-05-22 14:26:29,706 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:26:30,136 INFO React agent created successfully
+2024-05-22 14:26:30,137 INFO AgentExecutor created successfully
+2024-05-22 14:26:30,137 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:26:36,342 INFO CSV loaded successfully
+2024-05-22 14:26:36,434 INFO CSV loaded successfully
+2024-05-22 14:26:39,045 INFO CultFAQChain initialized successfully
+2024-05-22 14:26:39,045 INFO GetGym initialized with URL
+2024-05-22 14:26:39,045 INFO PriceRetriever initialized with URLs
+2024-05-22 14:26:39,045 INFO GetDefault initialized with URL
+2024-05-22 14:26:42,973 INFO React agent created successfully
+2024-05-22 14:26:42,973 INFO AgentExecutor created successfully
+2024-05-22 14:26:42,973 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:26:42,974 INFO Input cleaned successfully
+2024-05-22 14:26:43,330 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:26:44,160 INFO Answered successfully
+2024-05-22 14:26:55,251 INFO CSV loaded successfully
+2024-05-22 14:26:56,277 INFO CSV loaded successfully
+2024-05-22 14:26:57,333 INFO CultFAQChain initialized successfully
+2024-05-22 14:26:57,333 INFO GetGym initialized with URL
+2024-05-22 14:26:57,333 INFO PriceRetriever initialized with URLs
+2024-05-22 14:26:57,333 INFO GetDefault initialized with URL
+2024-05-22 14:26:57,685 INFO CultFAQChain initialized successfully
+2024-05-22 14:26:57,685 INFO GetGym initialized with URL
+2024-05-22 14:26:57,685 INFO PriceRetriever initialized with URLs
+2024-05-22 14:26:57,685 INFO GetDefault initialized with URL
+2024-05-22 14:26:58,792 INFO CultFAQChain initialized successfully
+2024-05-22 14:26:58,792 INFO GetGym initialized with URL
+2024-05-22 14:26:58,792 INFO PriceRetriever initialized with URLs
+2024-05-22 14:26:58,792 INFO GetDefault initialized with URL
+2024-05-22 14:27:01,609 INFO React agent created successfully
+2024-05-22 14:27:01,609 INFO AgentExecutor created successfully
+2024-05-22 14:27:01,609 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:27:01,706 INFO React agent created successfully
+2024-05-22 14:27:01,708 INFO AgentExecutor created successfully
+2024-05-22 14:27:01,708 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:27:03,213 INFO React agent created successfully
+2024-05-22 14:27:03,215 INFO AgentExecutor created successfully
+2024-05-22 14:27:03,215 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:27:03,216 INFO Input cleaned successfully
+2024-05-22 14:27:03,572 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:27:04,449 INFO Received query: price of elite pass
+2024-05-22 14:27:04,450 INFO Query matched 'elite'
+2024-05-22 14:27:04,716 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:27:05,642 INFO Answered successfully
+2024-05-22 14:29:43,555 INFO CSV loaded successfully
+2024-05-22 14:29:45,352 INFO CultFAQChain initialized successfully
+2024-05-22 14:29:45,352 INFO GetGym initialized with URL
+2024-05-22 14:29:45,352 INFO PriceRetriever initialized with URLs
+2024-05-22 14:29:45,352 INFO GetDefault initialized with URL
+2024-05-22 14:29:49,789 INFO React agent created successfully
+2024-05-22 14:29:49,790 INFO AgentExecutor created successfully
+2024-05-22 14:29:49,790 INFO CultAgentExecutor initialized successfully
+2024-05-22 14:29:49,792 INFO Agent created and stored in session state
+2024-05-22 14:30:04,326 INFO Input cleaned successfully
+2024-05-22 14:30:05,316 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:30:06,227 INFO Answer processed and displayed
+2024-05-22 14:30:45,661 INFO Input cleaned successfully
+2024-05-22 14:30:46,085 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:30:52,818 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:30:53,133 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:30:54,650 INFO Answer processed and displayed
+2024-05-22 14:32:13,562 INFO Input cleaned successfully
+2024-05-22 14:32:13,994 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:32:15,427 INFO Answer processed and displayed
+2024-05-22 14:32:29,146 INFO Input cleaned successfully
+2024-05-22 14:32:29,598 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:32:33,003 INFO Received query: nearby gyms"
+
+2024-05-22 14:32:33,426 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:32:36,565 INFO Received query: nearby gyms"
+
+2024-05-22 14:32:36,847 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:32:38,880 INFO Answer processed and displayed
+2024-05-22 14:33:02,098 INFO Input cleaned successfully
+2024-05-22 14:33:02,390 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:33:06,261 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:33:06,561 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 14:33:07,430 INFO Answer processed and displayed
+2024-05-22 15:15:17,294 INFO Input cleaned successfully
+2024-05-22 15:15:18,196 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:15:24,042 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:15:24,413 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:15:27,288 INFO Answer processed and displayed
+2024-05-22 15:23:03,546 INFO Input cleaned successfully
+2024-05-22 15:23:04,156 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:23:06,966 INFO Received query: price of pro pass"
+
+(After receiving the output from the Price tool)
+
+2024-05-22 15:23:06,966 INFO Query matched 'pro'
+2024-05-22 15:23:07,246 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:23:21,830 INFO Answer processed and displayed
+2024-05-22 15:23:36,908 INFO Input cleaned successfully
+2024-05-22 15:23:37,718 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:23:44,211 INFO Received query: price of your mom
+2024-05-22 15:23:44,618 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:23:49,906 INFO Answer processed and displayed
+2024-05-22 15:24:06,528 INFO Input cleaned successfully
+2024-05-22 15:24:07,014 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:24:15,371 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:24:15,860 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:24:18,332 INFO Answer processed and displayed
+2024-05-22 15:25:10,359 INFO Input cleaned successfully
+2024-05-22 15:25:11,126 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:25:31,229 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:25:31,903 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:25:35,747 INFO Answer processed and displayed
+2024-05-22 15:27:20,808 INFO Input cleaned successfully
+2024-05-22 15:27:21,673 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:28:50,168 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:28:50,668 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:29:05,437 INFO Answer processed and displayed
+2024-05-22 15:29:38,053 INFO Input cleaned successfully
+2024-05-22 15:29:38,623 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:29:51,428 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:29:52,009 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:29:54,407 INFO Answer processed and displayed
+2024-05-22 15:52:49,407 INFO Input cleaned successfully
+2024-05-22 15:52:51,392 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:52:59,495 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:53:00,865 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:53:03,594 INFO Answer processed and displayed
+2024-05-22 15:54:19,634 INFO Input cleaned successfully
+2024-05-22 15:54:20,432 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:54:32,382 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:54:32,998 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 15:54:45,762 INFO Answer processed and displayed
+2024-05-22 16:03:42,251 INFO Input cleaned successfully
+2024-05-22 16:03:43,471 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 16:03:48,908 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 16:03:49,510 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 16:03:50,117 INFO Answer processed and displayed
+2024-05-22 16:06:10,835 INFO Input cleaned successfully
+2024-05-22 16:06:12,861 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 16:06:20,249 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 16:06:21,121 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 16:06:26,001 INFO Answer processed and displayed
+2024-05-22 17:23:23,693 INFO Input cleaned successfully
+2024-05-22 17:23:36,362 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:23:43,262 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:23:45,022 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:23:45,626 INFO Answer processed and displayed
+2024-05-22 17:24:01,992 INFO Input cleaned successfully
+2024-05-22 17:24:02,296 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:24:15,516 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:24:17,207 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:24:18,246 INFO Answer processed and displayed
+2024-05-22 17:24:49,156 INFO Input cleaned successfully
+2024-05-22 17:24:51,809 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:25:00,569 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:25:01,030 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:25:01,774 INFO Answer processed and displayed
+2024-05-22 17:28:21,783 INFO Input cleaned successfully
+2024-05-22 17:28:23,701 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:28:27,775 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:28:29,867 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:28:31,388 INFO Answer processed and displayed
+2024-05-22 17:30:35,629 INFO Input cleaned successfully
+2024-05-22 17:30:37,817 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:30:49,817 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:30:51,983 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:30:53,751 INFO Answer processed and displayed
+2024-05-22 17:31:21,002 INFO Input cleaned successfully
+2024-05-22 17:31:23,291 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:31:24,617 INFO Received query: elite vs pro"
+
+(After receiving the result from the Price tool)
+
+2024-05-22 17:31:24,618 INFO Query matched 'elite'
+2024-05-22 17:31:26,763 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:31:27,317 INFO Answer processed and displayed
+2024-05-22 17:31:56,534 INFO Input cleaned successfully
+2024-05-22 17:31:58,320 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:00,836 INFO Received query: i want to start my fitness journey what should i do
+2024-05-22 17:32:01,083 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:04,987 INFO Answer processed and displayed
+2024-05-22 17:32:08,991 INFO Input cleaned successfully
+2024-05-22 17:32:10,679 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:11,788 INFO Answer processed and displayed
+2024-05-22 17:32:19,742 INFO Input cleaned successfully
+2024-05-22 17:32:21,353 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:25,936 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:26,712 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:29,812 INFO Answer processed and displayed
+2024-05-22 17:32:45,192 INFO Input cleaned successfully
+2024-05-22 17:32:46,000 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:50,052 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:32:50,980 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-22 17:32:50,981 INFO Retrying request to /openai/v1/chat/completions in 41.000000 seconds
+2024-05-22 17:33:33,520 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:33:45,199 INFO Answer processed and displayed
+2024-05-22 17:34:16,718 INFO Input cleaned successfully
+2024-05-22 17:34:17,178 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 17:34:38,228 INFO Input cleaned successfully
+2024-05-22 17:34:38,771 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 17:35:41,537 INFO Input cleaned successfully
+2024-05-22 17:35:42,086 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 17:36:40,982 INFO Input cleaned successfully
+2024-05-22 17:36:43,424 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 17:37:16,369 INFO CSV loaded successfully
+2024-05-22 17:37:20,938 INFO Loading faiss.
+2024-05-22 17:37:20,983 INFO Successfully loaded faiss.
+2024-05-22 17:37:20,997 INFO CultFAQChain initialized successfully
+2024-05-22 17:37:20,997 INFO GetGym initialized with URL
+2024-05-22 17:37:20,997 INFO PriceRetriever initialized with URLs
+2024-05-22 17:37:20,997 INFO GetDefault initialized with URL
+2024-05-22 17:37:22,336 INFO CSV loaded successfully
+2024-05-22 17:37:24,478 INFO CultFAQChain initialized successfully
+2024-05-22 17:37:24,478 INFO GetGym initialized with URL
+2024-05-22 17:37:24,478 INFO PriceRetriever initialized with URLs
+2024-05-22 17:37:24,478 INFO GetDefault initialized with URL
+2024-05-22 17:37:25,641 INFO React agent created successfully
+2024-05-22 17:37:25,641 INFO AgentExecutor created successfully
+2024-05-22 17:37:25,642 INFO CultAgentExecutor initialized successfully
+2024-05-22 17:37:28,983 INFO React agent created successfully
+2024-05-22 17:37:28,983 INFO AgentExecutor created successfully
+2024-05-22 17:37:28,983 INFO CultAgentExecutor initialized successfully
+2024-05-22 17:37:28,983 INFO Agent created and stored in session state
+2024-05-22 17:37:34,833 INFO Input cleaned successfully
+2024-05-22 17:37:36,189 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:37:52,134 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:37:53,932 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:38:04,329 INFO Answer processed and displayed
+2024-05-22 17:38:45,168 INFO CSV loaded successfully
+2024-05-22 17:38:48,738 INFO CultFAQChain initialized successfully
+2024-05-22 17:38:48,738 INFO GetGym initialized with URL
+2024-05-22 17:38:48,738 INFO PriceRetriever initialized with URLs
+2024-05-22 17:38:48,738 INFO GetDefault initialized with URL
+2024-05-22 17:38:53,133 INFO React agent created successfully
+2024-05-22 17:38:53,134 INFO AgentExecutor created successfully
+2024-05-22 17:38:53,134 INFO CultAgentExecutor initialized successfully
+2024-05-22 17:38:53,134 INFO Agent created and stored in session state
+2024-05-22 17:38:53,134 INFO Input cleaned successfully
+2024-05-22 17:39:02,787 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:39:14,687 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:39:15,155 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:39:20,408 INFO Answer processed and displayed
+2024-05-22 17:39:36,501 INFO Input cleaned successfully
+2024-05-22 17:39:37,151 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:39:48,032 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-22 17:39:48,033 INFO Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2024-05-22 17:40:00,666 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:40:01,693 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-22 17:40:01,694 INFO Retrying request to /openai/v1/chat/completions in 18.000000 seconds
+2024-05-22 17:40:20,203 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-22 17:40:20,204 INFO Retrying request to /openai/v1/chat/completions in 24.000000 seconds
+2024-05-22 17:40:44,652 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:40:57,207 INFO Answer processed and displayed
+2024-05-22 17:41:55,168 INFO CSV loaded successfully
+2024-05-22 17:41:59,133 INFO Loading faiss.
+2024-05-22 17:41:59,166 INFO Successfully loaded faiss.
+2024-05-22 17:41:59,183 INFO CultFAQChain initialized successfully
+2024-05-22 17:41:59,183 INFO GetGym initialized with URL
+2024-05-22 17:41:59,183 INFO PriceRetriever initialized with URLs
+2024-05-22 17:41:59,183 INFO GetDefault initialized with URL
+2024-05-22 17:41:59,559 INFO CSV loaded successfully
+2024-05-22 17:42:01,458 INFO CultFAQChain initialized successfully
+2024-05-22 17:42:01,458 INFO GetGym initialized with URL
+2024-05-22 17:42:01,458 INFO PriceRetriever initialized with URLs
+2024-05-22 17:42:01,458 INFO GetDefault initialized with URL
+2024-05-22 17:42:03,774 INFO React agent created successfully
+2024-05-22 17:42:03,775 INFO AgentExecutor created successfully
+2024-05-22 17:42:03,775 INFO CultAgentExecutor initialized successfully
+2024-05-22 17:42:05,637 INFO React agent created successfully
+2024-05-22 17:42:05,637 INFO AgentExecutor created successfully
+2024-05-22 17:42:05,637 INFO CultAgentExecutor initialized successfully
+2024-05-22 17:42:05,637 INFO Agent created and stored in session state
+2024-05-22 17:42:10,955 INFO Input cleaned successfully
+2024-05-22 17:42:12,382 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:42:18,344 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:42:18,808 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:42:23,904 INFO Answer processed and displayed
+2024-05-22 17:43:19,723 INFO Input cleaned successfully
+2024-05-22 17:43:20,511 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:43:21,195 INFO Received query: price of elite pass
+2024-05-22 17:43:21,195 INFO Query matched 'elite'
+2024-05-22 17:43:21,722 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:43:22,113 INFO Answer processed and displayed
+2024-05-22 17:44:17,752 INFO Input cleaned successfully
+2024-05-22 17:44:18,836 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:44:28,370 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:44:31,781 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:44:32,238 INFO Answer processed and displayed
+2024-05-22 17:48:46,621 INFO Input cleaned successfully
+2024-05-22 17:48:49,253 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:49:01,184 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:49:04,108 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:49:05,036 INFO Answer processed and displayed
+2024-05-22 17:53:03,019 INFO Input cleaned successfully
+2024-05-22 17:53:11,147 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:53:15,912 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:53:17,252 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:53:18,317 INFO Answer processed and displayed
+2024-05-22 17:55:55,679 INFO Input cleaned successfully
+2024-05-22 17:55:57,299 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:55:59,904 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:56:02,072 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:56:02,850 INFO Answer processed and displayed
+2024-05-22 17:56:10,521 INFO Input cleaned successfully
+2024-05-22 17:56:12,199 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:56:17,862 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:56:19,187 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 17:56:21,025 INFO Answer processed and displayed
+2024-05-22 17:59:51,668 INFO Input cleaned successfully
+2024-05-22 17:59:54,050 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 18:00:00,429 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 18:00:00,774 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 18:00:01,568 INFO Answer processed and displayed
+2024-05-22 18:04:45,969 INFO CSV loaded successfully
+2024-05-22 18:04:48,675 INFO CultFAQChain initialized successfully
+2024-05-22 18:04:48,675 INFO GetGym initialized with URL
+2024-05-22 18:04:48,675 INFO PriceRetriever initialized with URLs
+2024-05-22 18:04:48,675 INFO GetDefault initialized with URL
+2024-05-22 18:04:52,947 INFO React agent created successfully
+2024-05-22 18:04:52,947 INFO AgentExecutor created successfully
+2024-05-22 18:04:52,947 INFO CultAgentExecutor initialized successfully
