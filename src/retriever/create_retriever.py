@@ -1,8 +1,9 @@
 import logging
 from logging_config import setup_logging
-from langchain_nomic.embeddings import NomicEmbeddings
+# from langchain_nomic.embeddings import NomicEmbeddings
 from langchain_community.document_loaders import CSVLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.embeddings import OllamaEmbeddings
 import dotenv
 # from langchain_community.vectorstores import Chroma
 from langchain_community.vectorstores import FAISS
@@ -23,7 +24,9 @@ class CreateRetriever:
             text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
             texts = text_splitter.split_documents(self.answers)
 
-            embeddings = NomicEmbeddings(model="nomic-embed-text-v1.5", dimensionality=256)
+            # embeddings = NomicEmbeddings(model="nomic-embed-text-v1.5", dimensionality=256)
+
+            embeddings = OllamaEmbeddings(model="nomic-embed-text")
 
             
             # self.answers_vector_db = PineconeVectorStore.from_documents(
