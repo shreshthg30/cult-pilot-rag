@@ -9,11 +9,18 @@ from langchain.prompts import (
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
     ChatPromptTemplate,
+    MessagesPlaceholder,
 )
 from langchain_core.output_parsers import StrOutputParser
 from langchain.schema.runnable import RunnablePassthrough
 from src.retriever.create_retriever import CreateRetriever
 from src.chains.config import CHAT_MODEL_NAME, CULT_TEMPLATE_STR
+from langchain_core.chat_history import BaseChatMessageHistory
+from langchain_core.runnables.history import RunnableWithMessageHistory
+from langchain_community.chat_message_histories import ChatMessageHistory
+from langchain_core.runnables import ConfigurableFieldSpec
+
+
 
 setup_logging()
 
@@ -21,8 +28,10 @@ class CultFAQChain:
     def __init__(self):
         try:
             dotenv.load_dotenv()
+
+            self.store = {}
             self.chat_model = ChatGroq(groq_api_key=os.getenv('GROQ_API_KEY'), model_name=CHAT_MODEL_NAME)
-            #Ollama(model="mistral")
+            # self.chat_model = Ollama(model="mistral")
             self.answers_retriever = CreateRetriever().get_retriever()
             self.cult_system_prompt = SystemMessagePromptTemplate(
                 prompt=PromptTemplate(
@@ -51,6 +60,7 @@ class CultFAQChain:
             logging.error(f"Error initializing CultFAQChain: {e}")
             raise
 
+
     def create_faq_chain(self):
         try:
             faq_chain = {
@@ -62,9 +72,18 @@ class CultFAQChain:
             logging.error(f"Error creating FAQ chain: {e}")
             raise
 
+    # def get_session_history(self, user_id: str, conversation_id: str) -> BaseChatMessageHistory:
+    #     if (user_id, conversation_id) not in self.store:
+    #         self.store[(user_id, conversation_id)] = ChatMessageHistory()
+    #     return self.store[(user_id, conversation_id)]
+
     def get_chain(self):
         try:
             return self.cult_faq_chain
         except Exception as e:
             logging.error(f"Error retrieving FAQ chain: {e}")
             raise
+
+    def invoke_chain(self, query:str): 
+        response = self.cult_faq_chain.invoke({"input": query})
+        return response

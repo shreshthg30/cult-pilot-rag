@@ -30,6 +30,8 @@ class ToolDescriptions:
         - User Query: "What modes of payment are accepted?"
         - Pass it to the function as it is: "What modes of payment are accepted?"
 
+        Give the response as it is, without apologising.
+
         Note: Do not use this tool for specific pricing or gym location queries.
         If you couldnt find relevant information ask user to go to https://support.cult.fit/support/solutions for further assistance.
     """
@@ -49,6 +51,9 @@ class ToolDescriptions:
         Example:
         - User Query: "How much does a Cultpass Pro membership cost?"
         - Function Response: Provides a redirect link to the pricing page for Cultpass Pro.
+
+        Give the response as it is, without apologising.
+
 
         Note: Do not use this function for general queries about modes of payment, general membership details, or gym location queries.
         If you couldnt find relevant information ask user to go to https://support.cult.fit/support/solutions for further assistance.
@@ -71,6 +76,9 @@ class ToolDescriptions:
         Example:
         - User Query: "Which gyms can I access through Cultpass Pro?"
         - Function Response: Provides a redirect link to the relevant page listing gyms accessible with Cultpass Pro.
+
+        Give the response as it is, without apologising.
+
 
         Note: Do not use this function for general queries about membership details, modes of payment, or pricing information.
         If you couldnt find relevant information ask user to go to https://support.cult.fit/support/solutions for further assistance.
