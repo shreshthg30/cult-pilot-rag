@@ -9,16 +9,11 @@ from langchain.prompts import (
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
     ChatPromptTemplate,
-    MessagesPlaceholder,
 )
 from langchain_core.output_parsers import StrOutputParser
 from langchain.schema.runnable import RunnablePassthrough
 from src.retriever.create_retriever import CreateRetriever
 from src.chains.config import CHAT_MODEL_NAME, CULT_TEMPLATE_STR
-from langchain_core.chat_history import BaseChatMessageHistory
-from langchain_core.runnables.history import RunnableWithMessageHistory
-from langchain_community.chat_message_histories import ChatMessageHistory
-from langchain_core.runnables import ConfigurableFieldSpec
 
 
 
@@ -71,11 +66,6 @@ class CultFAQChain:
         except Exception as e:
             logging.error(f"Error creating FAQ chain: {e}")
             raise
-
-    # def get_session_history(self, user_id: str, conversation_id: str) -> BaseChatMessageHistory:
-    #     if (user_id, conversation_id) not in self.store:
-    #         self.store[(user_id, conversation_id)] = ChatMessageHistory()
-    #     return self.store[(user_id, conversation_id)]
 
     def get_chain(self):
         try:

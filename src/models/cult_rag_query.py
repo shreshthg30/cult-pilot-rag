@@ -4,5 +4,5 @@ class CultQueryInput(BaseModel):
     input: str
 
 class CultQueryOutput(BaseModel):
-    input: str
-    output: str
+    message: str
+    actions: list

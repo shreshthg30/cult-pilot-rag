@@ -2402,3 +2402,233 @@ Thought: I assume the user is asking about the additional benefits of the Cultpa
 2024-05-24 14:24:47,134 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2024-05-24 14:25:06,695 INFO Input cleaned successfully
 2024-05-24 14:25:07,080 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:44:32,850 INFO CSV loaded successfully
+2024-05-25 13:44:36,378 INFO Loading faiss.
+2024-05-25 13:44:36,418 INFO Successfully loaded faiss.
+2024-05-25 13:44:36,430 INFO CultFAQChain initialized successfully
+2024-05-25 13:44:36,430 INFO Chain Initialised successfully
+2024-05-25 13:44:36,430 INFO GetGym initialized with URL
+2024-05-25 13:44:36,430 INFO PriceRetriever initialized with URLs
+2024-05-25 13:44:36,430 INFO GetDefault initialized with URL
+2024-05-25 13:44:40,248 INFO React agent created successfully
+2024-05-25 13:44:40,248 INFO AgentExecutor created successfully
+2024-05-25 13:44:40,248 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:44:40,770 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:44:41,508 INFO Received query: tell me about cult?
+2024-05-25 13:44:41,508 ERROR Error processing query 'tell me about cult?': 'RunnableSequence' object is not callable
+2024-05-25 13:44:41,824 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:44:42,948 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:44:43,465 INFO Received query: tell me about cult?
+2024-05-25 13:44:43,465 ERROR Error processing query 'tell me about cult?': 'RunnableSequence' object is not callable
+2024-05-25 13:44:43,769 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:44:44,600 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:44:44,602 INFO Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2024-05-25 13:44:57,942 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:45:32,114 INFO CSV loaded successfully
+2024-05-25 13:45:34,375 INFO CultFAQChain initialized successfully
+2024-05-25 13:45:34,375 INFO Chain Initialised successfully
+2024-05-25 13:45:34,375 INFO GetGym initialized with URL
+2024-05-25 13:45:34,375 INFO PriceRetriever initialized with URLs
+2024-05-25 13:45:34,375 INFO GetDefault initialized with URL
+2024-05-25 13:45:38,440 INFO React agent created successfully
+2024-05-25 13:45:38,440 INFO AgentExecutor created successfully
+2024-05-25 13:45:38,441 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:45:38,761 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:45:39,427 INFO Received query: tell me about cult?
+2024-05-25 13:45:39,427 ERROR Error processing query 'tell me about cult?': 'RunnableSequence' object is not callable
+2024-05-25 13:45:40,273 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:45:40,274 INFO Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2024-05-25 13:46:09,683 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:46:39,700 INFO CSV loaded successfully
+2024-05-25 13:46:43,602 INFO Loading faiss.
+2024-05-25 13:46:43,634 INFO Successfully loaded faiss.
+2024-05-25 13:46:43,649 INFO CultFAQChain initialized successfully
+2024-05-25 13:46:43,649 INFO Chain Initialised successfully
+2024-05-25 13:46:43,649 INFO GetGym initialized with URL
+2024-05-25 13:46:43,649 INFO PriceRetriever initialized with URLs
+2024-05-25 13:46:43,649 INFO GetDefault initialized with URL
+2024-05-25 13:46:49,083 INFO React agent created successfully
+2024-05-25 13:46:49,083 INFO AgentExecutor created successfully
+2024-05-25 13:46:49,083 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:46:49,084 INFO Agent created and stored in session state
+2024-05-25 13:46:51,664 INFO Input cleaned successfully
+2024-05-25 13:46:52,022 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:46:52,658 INFO Received query: tell me about cult
+2024-05-25 13:46:52,658 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
+2024-05-25 13:46:52,916 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:46:53,652 INFO Answer processed and displayed
+2024-05-25 13:47:27,116 INFO CSV loaded successfully
+2024-05-25 13:47:29,284 INFO CultFAQChain initialized successfully
+2024-05-25 13:47:29,284 INFO Chain Initialised successfully
+2024-05-25 13:47:29,284 INFO GetGym initialized with URL
+2024-05-25 13:47:29,284 INFO PriceRetriever initialized with URLs
+2024-05-25 13:47:29,285 INFO GetDefault initialized with URL
+2024-05-25 13:47:35,148 INFO React agent created successfully
+2024-05-25 13:47:35,148 INFO AgentExecutor created successfully
+2024-05-25 13:47:35,148 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:47:35,601 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:47:36,208 INFO Received query: tell me about cult?
+2024-05-25 13:47:36,209 ERROR Error processing query 'tell me about cult?': 'RunnableSequence' object is not callable
+2024-05-25 13:47:36,490 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:47:36,492 INFO Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2024-05-25 13:47:43,792 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:48:52,112 INFO CSV loaded successfully
+2024-05-25 13:48:55,284 INFO Loading faiss.
+2024-05-25 13:48:55,324 INFO Successfully loaded faiss.
+2024-05-25 13:48:55,337 INFO CultFAQChain initialized successfully
+2024-05-25 13:48:55,337 INFO Chain Initialised successfully
+2024-05-25 13:48:55,337 INFO GetGym initialized with URL
+2024-05-25 13:48:55,337 INFO PriceRetriever initialized with URLs
+2024-05-25 13:48:55,337 INFO GetDefault initialized with URL
+2024-05-25 13:48:59,667 INFO React agent created successfully
+2024-05-25 13:48:59,667 INFO AgentExecutor created successfully
+2024-05-25 13:48:59,667 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:49:00,088 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:49:01,712 INFO Received query: Tell me about Cult?
+2024-05-25 13:49:01,713 ERROR Error processing query 'Tell me about Cult?': 'RunnableSequence' object is not callable
+2024-05-25 13:49:02,033 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:50:02,660 INFO CSV loaded successfully
+2024-05-25 13:50:04,926 INFO CultFAQChain initialized successfully
+2024-05-25 13:50:04,926 INFO Chain Initialised successfully
+2024-05-25 13:50:04,926 INFO GetGym initialized with URL
+2024-05-25 13:50:04,926 INFO PriceRetriever initialized with URLs
+2024-05-25 13:50:04,926 INFO GetDefault initialized with URL
+2024-05-25 13:50:09,239 INFO React agent created successfully
+2024-05-25 13:50:09,239 INFO AgentExecutor created successfully
+2024-05-25 13:50:09,239 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:50:09,615 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:50:10,231 INFO Received query: tell me about cult?
+2024-05-25 13:50:10,232 ERROR Error processing query 'tell me about cult?': 'RunnableSequence' object is not callable
+2024-05-25 13:50:10,535 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:50:52,236 INFO CSV loaded successfully
+2024-05-25 13:50:53,976 INFO CultFAQChain initialized successfully
+2024-05-25 13:50:53,977 INFO Chain Initialised successfully
+2024-05-25 13:50:53,977 INFO GetGym initialized with URL
+2024-05-25 13:50:53,977 INFO PriceRetriever initialized with URLs
+2024-05-25 13:50:53,977 INFO GetDefault initialized with URL
+2024-05-25 13:50:58,186 INFO React agent created successfully
+2024-05-25 13:50:58,186 INFO AgentExecutor created successfully
+2024-05-25 13:50:58,187 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:50:58,546 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:50:59,012 INFO Received query: List gyms with their locations
+2024-05-25 13:50:59,288 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:51:17,569 INFO CSV loaded successfully
+2024-05-25 13:51:19,886 INFO CultFAQChain initialized successfully
+2024-05-25 13:51:19,886 INFO Chain Initialised successfully
+2024-05-25 13:51:19,886 INFO GetGym initialized with URL
+2024-05-25 13:51:19,886 INFO PriceRetriever initialized with URLs
+2024-05-25 13:51:19,886 INFO GetDefault initialized with URL
+2024-05-25 13:51:24,006 INFO React agent created successfully
+2024-05-25 13:51:24,007 INFO AgentExecutor created successfully
+2024-05-25 13:51:24,007 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:51:24,883 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:51:25,356 INFO Received query: pricing of elite?
+2024-05-25 13:51:25,356 INFO Query matched 'elite'
+2024-05-25 13:51:25,700 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:51:25,702 INFO Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2024-05-25 13:51:41,024 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:52:05,803 INFO CSV loaded successfully
+2024-05-25 13:52:08,850 INFO Loading faiss.
+2024-05-25 13:52:08,877 INFO Successfully loaded faiss.
+2024-05-25 13:52:08,891 INFO CultFAQChain initialized successfully
+2024-05-25 13:52:08,891 INFO Chain Initialised successfully
+2024-05-25 13:52:08,891 INFO GetGym initialized with URL
+2024-05-25 13:52:08,891 INFO PriceRetriever initialized with URLs
+2024-05-25 13:52:08,891 INFO GetDefault initialized with URL
+2024-05-25 13:52:13,423 INFO React agent created successfully
+2024-05-25 13:52:13,424 INFO AgentExecutor created successfully
+2024-05-25 13:52:13,424 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:52:13,741 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:52:15,312 INFO Received query: discounts going on today?
+2024-05-25 13:52:15,312 INFO Query matched 'default'
+2024-05-25 13:52:15,673 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:52:15,674 INFO Retrying request to /openai/v1/chat/completions in 22.000000 seconds
+2024-05-25 13:52:37,981 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:53:00,892 INFO CSV loaded successfully
+2024-05-25 13:53:03,324 INFO CultFAQChain initialized successfully
+2024-05-25 13:53:03,324 INFO Chain Initialised successfully
+2024-05-25 13:53:03,324 INFO GetGym initialized with URL
+2024-05-25 13:53:03,325 INFO PriceRetriever initialized with URLs
+2024-05-25 13:53:03,325 INFO GetDefault initialized with URL
+2024-05-25 13:53:07,940 INFO React agent created successfully
+2024-05-25 13:53:07,941 INFO AgentExecutor created successfully
+2024-05-25 13:53:07,941 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:53:08,233 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:53:08,234 INFO Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2024-05-25 13:53:20,606 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:53:21,115 INFO Received query: What are the differences in pricing and inclusions between Cultpass Elite and Pro?"
+
+2024-05-25 13:53:21,115 INFO Query matched 'elite'
+2024-05-25 13:53:21,427 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:53:21,429 INFO Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2024-05-25 13:53:51,797 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:53:52,299 INFO Received query: What are the differences in pricing and inclusions between Cultpass Elite and Pro?"
+
+2024-05-25 13:53:52,299 INFO Query matched 'elite'
+2024-05-25 13:53:52,659 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:53:52,660 INFO Retrying request to /openai/v1/chat/completions in 31.000000 seconds
+2024-05-25 13:54:11,267 INFO CSV loaded successfully
+2024-05-25 13:54:14,769 INFO Loading faiss.
+2024-05-25 13:54:14,796 INFO Successfully loaded faiss.
+2024-05-25 13:54:14,811 INFO CultFAQChain initialized successfully
+2024-05-25 13:54:14,811 INFO Chain Initialised successfully
+2024-05-25 13:54:14,811 INFO GetGym initialized with URL
+2024-05-25 13:54:14,811 INFO PriceRetriever initialized with URLs
+2024-05-25 13:54:14,811 INFO GetDefault initialized with URL
+2024-05-25 13:54:19,118 INFO React agent created successfully
+2024-05-25 13:54:19,119 INFO AgentExecutor created successfully
+2024-05-25 13:54:19,119 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:54:20,112 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:54:20,114 INFO Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2024-05-25 13:54:23,438 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:54:24,102 INFO Received query: What are the differences between Cultpass Pro and Elite?"
+
+2024-05-25 13:54:24,103 ERROR Error processing query 'What are the differences between Cultpass Pro and Elite?"
+': 'RunnableSequence' object is not callable
+2024-05-25 13:54:24,405 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:54:24,407 INFO Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2024-05-25 13:54:54,818 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:56:14,895 INFO CSV loaded successfully
+2024-05-25 13:56:17,273 INFO CultFAQChain initialized successfully
+2024-05-25 13:56:17,274 INFO Chain Initialised successfully
+2024-05-25 13:56:17,274 INFO GetGym initialized with URL
+2024-05-25 13:56:17,274 INFO PriceRetriever initialized with URLs
+2024-05-25 13:56:17,274 INFO GetDefault initialized with URL
+2024-05-25 13:56:21,687 INFO React agent created successfully
+2024-05-25 13:56:21,688 INFO AgentExecutor created successfully
+2024-05-25 13:56:21,688 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:56:22,168 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:56:22,987 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:56:23,448 INFO Received query: Which is better, Cultpass Elite or Pro?
+2024-05-25 13:56:23,449 INFO Query matched 'elite'
+2024-05-25 13:56:23,805 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:56:24,528 INFO Received query: What are the differences in pricing and inclusions between Cultpass Elite and Pro?
+
+2024-05-25 13:56:24,528 INFO Query matched 'elite'
+2024-05-25 13:56:24,835 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:56:24,836 INFO Retrying request to /openai/v1/chat/completions in 36.000000 seconds
+2024-05-25 13:57:01,137 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:57:01,832 INFO Received query: How do Cultpass Elite and Pro memberships differ in terms of pricing and benefits?
+
+2024-05-25 13:57:01,832 INFO Query matched 'elite'
+2024-05-25 13:57:02,209 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:57:02,210 INFO Retrying request to /openai/v1/chat/completions in 39.000000 seconds
+2024-05-25 13:57:41,571 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:57:42,510 INFO Received query: I cannot answer this question.
+2024-05-25 13:57:42,781 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-25 13:57:42,783 INFO Retrying request to /openai/v1/chat/completions in 45.000000 seconds
+2024-05-25 13:59:44,554 INFO CSV loaded successfully
+2024-05-25 13:59:47,264 INFO Loading faiss.
+2024-05-25 13:59:47,301 INFO Successfully loaded faiss.
+2024-05-25 13:59:47,313 INFO CultFAQChain initialized successfully
+2024-05-25 13:59:47,313 INFO Chain Initialised successfully
+2024-05-25 13:59:47,314 INFO GetGym initialized with URL
+2024-05-25 13:59:47,314 INFO PriceRetriever initialized with URLs
+2024-05-25 13:59:47,314 INFO GetDefault initialized with URL
+2024-05-25 13:59:51,517 INFO React agent created successfully
+2024-05-25 13:59:51,517 INFO AgentExecutor created successfully
+2024-05-25 13:59:51,517 INFO CultAgentExecutor initialized successfully
+2024-05-25 13:59:51,906 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 13:59:54,525 INFO Received query: elite pass or pro what is the difference?
+2024-05-25 13:59:54,526 ERROR Error processing query 'elite pass or pro what is the difference?': 'RunnableSequence' object is not callable
+2024-05-25 13:59:54,814 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

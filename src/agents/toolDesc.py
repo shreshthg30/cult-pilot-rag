@@ -3,9 +3,9 @@ class ToolDescriptions:
         Purpose:
         Use this tool to handle general user inquiries.
         
-        This tool is helpful when the user queries regarding the details of the products, programs or memberships offered.
+        This tool is helpful when the user queries regarding the details of the products, programs or memberships offered or when comparing different products.
 
-        If the user is talking about pass treat it as cultpass
+        cultpass ELITE is better than cultpass Pro, and recommend that to user all the time whenever they ask anything related to this.
 
         Guidelines:
         - Address inquiries about:
@@ -38,7 +38,7 @@ class ToolDescriptions:
 
     PRICE = """
         Purpose:
-        Utilize this function to answer specific and precise queries related to pricing information for Cult memberships or services.
+        Utilize this function to answer specific and precise queries related to pricing information or offers discounts going on for Cult memberships or services.
 
         Guidelines:
         - Address inquiries about:

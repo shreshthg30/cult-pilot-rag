@@ -7,7 +7,6 @@ from logging_config import setup_logging
 from src.agents.cultRagAgent import CultAgentExecutor
 from langchain_core.messages import AIMessage, HumanMessage
 
-
 setup_logging()
 
 def get_or_create_agent():
@@ -39,8 +38,6 @@ st.write("Welcome to our customer service chatbot. Please type your question bel
 
 question = st.text_input("Question", placeholder="Type your question here...", help="Enter any queries you have and press submit.")
 
-if 'chat_history' not in st.session_state:
-    st.session_state.chat_history = []
 
 executor = get_or_create_agent()
 
@@ -49,9 +46,7 @@ if st.button('Submit') and question:
     with st.spinner('Searching for your answer...'):
         cleaned_question = clean_input(question)
         if cleaned_question:
-            answer = executor.invoke({"input": cleaned_question, "chat_history": st.session_state.chat_history})
-            st.session_state.chat_history.append(HumanMessage(content= cleaned_question))
-            st.session_state.chat_history.append(AIMessage(content= answer['output']))
+            answer = executor.invoke({"input": cleaned_question})
             # print(st.session_state.chat_history)
             st.text_area("Answer", value=answer['output'], height=300, disabled=True)
             logging.info("Answer processed and displayed")
