@@ -25,7 +25,7 @@ $ streamlit run app.py
 
 ## Folder Structure
 
-![Folder Structure](https://i.ibb.co/bHS7KyS/Screenshot-2024-05-17-at-1-41-52-PM.jpg)
+![Folder Structure](images/folder_struct.jpg)
 
 ## Use cases
 
@@ -44,6 +44,6 @@ $ streamlit run app.py
 
 ## Workflow
 
-![How rag works](https://i.ibb.co/ZLXJx9f/flow.jpg)
+![How rag works](images/workflow1.png)
 
-![Workflow of the chatbot](https://i.ibb.co/6vCKFw6/image.png)
+![Workflow of the chatbot](images/workflow2.jpg)
