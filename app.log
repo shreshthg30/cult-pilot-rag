@@ -2647,3 +2647,42 @@ Thought: I assume the user is asking about the additional benefits of the Cultpa
 2024-05-27 11:30:22,569 INFO Received query: tell me about cult?
 2024-05-27 11:30:22,570 ERROR Error processing query 'tell me about cult?': 'RunnableSequence' object is not callable
 2024-05-27 11:30:22,901 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 14:54:32,440 INFO CSV loaded successfully
+2024-05-27 14:54:35,815 ERROR Error initializing CreateRetriever: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2024-05-27 14:54:35,815 ERROR Error initializing CultFAQChain: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2024-05-27 14:54:35,815 ERROR Error initializing CultAgentExecutor: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2024-05-27 14:54:35,815 ERROR Error creating agent: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2024-05-27 14:55:08,876 INFO CSV loaded successfully
+2024-05-27 14:55:11,765 INFO Loading faiss.
+2024-05-27 14:55:12,224 INFO Successfully loaded faiss.
+2024-05-27 14:55:12,234 INFO CultFAQChain initialized successfully
+2024-05-27 14:55:12,234 INFO Chain Initialised successfully
+2024-05-27 14:55:12,234 INFO GetGym initialized with URL
+2024-05-27 14:55:12,234 INFO PriceRetriever initialized with URLs
+2024-05-27 14:55:12,234 INFO GetDefault initialized with URL
+2024-05-27 14:55:12,234 ERROR Error initializing CultAgentExecutor: Could not import langchainhub, please install with `pip install langchainhub`.
+2024-05-27 14:55:12,234 ERROR Error creating agent: Could not import langchainhub, please install with `pip install langchainhub`.
+2024-05-27 14:55:47,049 INFO CSV loaded successfully
+2024-05-27 14:55:50,416 INFO Loading faiss.
+2024-05-27 14:55:50,458 INFO Successfully loaded faiss.
+2024-05-27 14:55:50,476 INFO CultFAQChain initialized successfully
+2024-05-27 14:55:50,477 INFO Chain Initialised successfully
+2024-05-27 14:55:50,477 INFO GetGym initialized with URL
+2024-05-27 14:55:50,477 INFO PriceRetriever initialized with URLs
+2024-05-27 14:55:50,477 INFO GetDefault initialized with URL
+2024-05-27 14:55:55,270 INFO React agent created successfully
+2024-05-27 14:55:55,270 INFO AgentExecutor created successfully
+2024-05-27 14:55:55,271 INFO CultAgentExecutor initialized successfully
+2024-05-27 14:55:55,271 INFO Agent created and stored in session state
+2024-05-27 14:56:01,564 INFO Input cleaned successfully
+2024-05-27 14:56:02,155 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 14:56:02,779 INFO Received query: tell me about cult
+2024-05-27 14:56:02,780 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
+2024-05-27 14:56:03,095 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 14:56:03,815 INFO Answer processed and displayed
+2024-05-27 14:56:10,855 INFO Input cleaned successfully
+2024-05-27 14:56:11,440 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 14:56:11,897 INFO Received query: tell me about cult
+2024-05-27 14:56:11,898 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
+2024-05-27 14:56:12,214 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 14:56:12,967 INFO Answer processed and displayed
