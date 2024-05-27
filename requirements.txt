@@ -6,5 +6,6 @@ langchain-core
 langchain-community
 langchain-groq
 langchain-nomic
-chromadb
+chromadb==0.3.29
 langchainhub
+uvicorn

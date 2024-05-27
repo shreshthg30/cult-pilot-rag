@@ -5,8 +5,8 @@ from langchain_community.document_loaders import CSVLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 # from langchain_community.embeddings import OllamaEmbeddings
 import dotenv
-from langchain_community.vectorstores import Chroma
-# from langchain_community.vectorstores import FAISS
+# from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
 # from langchain_pinecone import PineconeVectorStore
 from src.retriever.config import ANSWERS_CSV_PATH, ANSWERS_CHROMA_PATH, EMBEDDINGS_MODEL, COLLECTION_NAME, RETRIEVER_K, INDEX_NAME
 
@@ -33,14 +33,14 @@ class CreateRetriever:
             #     texts, embeddings, index_name=INDEX_NAME
             # )
 
-            self.answers_vector_db = Chroma.from_documents(
-                documents=texts,
-                collection_name=COLLECTION_NAME,
-                embedding=embeddings,
-                persist_directory=ANSWERS_CHROMA_PATH
-            )
+            # self.answers_vector_db = Chroma.from_documents(
+            #     documents=texts,
+            #     collection_name=COLLECTION_NAME,
+            #     embedding=embeddings,
+            #     persist_directory=ANSWERS_CHROMA_PATH
+            # )
 
-            # self.answers_vector_db = FAISS.from_documents(texts, embeddings)
+            self.answers_vector_db = FAISS.from_documents(texts, embeddings)
 
          
         except Exception as e:

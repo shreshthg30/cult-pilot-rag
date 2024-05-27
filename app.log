@@ -2708,3 +2708,63 @@ Thought: I assume the user is asking about the additional benefits of the Cultpa
 2024-05-27 15:02:41,018 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
 2024-05-27 15:02:41,425 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2024-05-27 15:02:41,981 INFO Answer processed and displayed
+2024-05-27 17:25:20,702 INFO CSV loaded successfully
+2024-05-27 17:25:20,942 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-27 17:25:21,033 INFO Collection rag-pilot is not created.
+2024-05-27 17:25:24,312 INFO CultFAQChain initialized successfully
+2024-05-27 17:25:24,313 INFO Chain Initialised successfully
+2024-05-27 17:25:24,313 INFO GetGym initialized with URL
+2024-05-27 17:25:24,313 INFO PriceRetriever initialized with URLs
+2024-05-27 17:25:24,313 INFO GetDefault initialized with URL
+2024-05-27 17:25:28,790 INFO React agent created successfully
+2024-05-27 17:25:28,791 INFO AgentExecutor created successfully
+2024-05-27 17:25:28,791 INFO CultAgentExecutor initialized successfully
+2024-05-27 17:25:29,296 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 17:25:31,430 INFO Received query: tell me about cult?"
+
+2024-05-27 17:25:31,430 ERROR Error processing query 'tell me about cult?"
+': 'RunnableSequence' object is not callable
+2024-05-27 17:25:31,772 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 17:35:29,948 INFO CSV loaded successfully
+2024-05-27 17:35:30,136 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-27 17:35:30,212 INFO Collection rag-pilot is not created.
+2024-05-27 17:35:33,674 INFO CultFAQChain initialized successfully
+2024-05-27 17:35:33,674 INFO Chain Initialised successfully
+2024-05-27 17:35:33,674 INFO GetGym initialized with URL
+2024-05-27 17:35:33,674 INFO PriceRetriever initialized with URLs
+2024-05-27 17:35:33,674 INFO GetDefault initialized with URL
+2024-05-27 17:35:38,268 INFO React agent created successfully
+2024-05-27 17:35:38,270 INFO AgentExecutor created successfully
+2024-05-27 17:35:38,270 INFO CultAgentExecutor initialized successfully
+2024-05-27 17:35:39,095 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 17:35:39,737 INFO Received query: tell me about cult
+2024-05-27 17:35:39,737 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
+2024-05-27 17:35:40,048 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 17:35:58,524 INFO CSV loaded successfully
+2024-05-27 17:35:58,538 INFO Collection rag-pilot is not created.
+2024-05-27 17:36:00,370 INFO CultFAQChain initialized successfully
+2024-05-27 17:36:00,370 INFO Chain Initialised successfully
+2024-05-27 17:36:00,370 INFO GetGym initialized with URL
+2024-05-27 17:36:00,370 INFO PriceRetriever initialized with URLs
+2024-05-27 17:36:00,370 INFO GetDefault initialized with URL
+2024-05-27 17:36:04,819 INFO React agent created successfully
+2024-05-27 17:36:04,821 INFO AgentExecutor created successfully
+2024-05-27 17:36:04,821 INFO CultAgentExecutor initialized successfully
+2024-05-27 17:36:05,156 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 17:36:07,570 INFO Received query: tell me about cult
+2024-05-27 17:36:07,570 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
+2024-05-27 17:36:07,877 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 17:37:49,493 INFO CSV loaded successfully
+2024-05-27 17:37:49,508 INFO Collection rag-pilot is not created.
+2024-05-27 17:37:51,961 INFO CultFAQChain initialized successfully
+2024-05-27 17:37:51,961 INFO Chain Initialised successfully
+2024-05-27 17:37:51,961 INFO GetGym initialized with URL
+2024-05-27 17:37:51,961 INFO PriceRetriever initialized with URLs
+2024-05-27 17:37:51,961 INFO GetDefault initialized with URL
+2024-05-27 17:37:57,037 INFO React agent created successfully
+2024-05-27 17:37:57,038 INFO AgentExecutor created successfully
+2024-05-27 17:37:57,038 INFO CultAgentExecutor initialized successfully
+2024-05-27 17:37:57,533 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 17:38:02,827 INFO Received query: tell me about cult
+2024-05-27 17:38:02,828 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
+2024-05-27 17:38:03,237 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
