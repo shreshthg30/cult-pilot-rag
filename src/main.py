@@ -24,7 +24,7 @@ async def invoke_agent_with_retry(query: str):
     cult_agent_executor_instance = CultAgentExecutor().get_executor()
     return await cult_agent_executor_instance.ainvoke({"input": query})
 
-@app.get("/")
+@app.get("/healthcheck")
 async def get_status():
     return {"status": "running"}
 
