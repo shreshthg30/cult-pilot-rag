@@ -2686,3 +2686,25 @@ Thought: I assume the user is asking about the additional benefits of the Cultpa
 2024-05-27 14:56:11,898 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
 2024-05-27 14:56:12,214 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2024-05-27 14:56:12,967 INFO Answer processed and displayed
+2024-05-27 15:01:16,573 INFO CSV loaded successfully
+2024-05-27 15:01:16,580 ERROR Error initializing CreateRetriever: Could not import chromadb python package. Please install it with `pip install chromadb`.
+2024-05-27 15:01:16,580 ERROR Error initializing CultFAQChain: Could not import chromadb python package. Please install it with `pip install chromadb`.
+2024-05-27 15:01:16,580 ERROR Error initializing CultAgentExecutor: Could not import chromadb python package. Please install it with `pip install chromadb`.
+2024-05-27 15:01:16,580 ERROR Error creating agent: Could not import chromadb python package. Please install it with `pip install chromadb`.
+2024-05-27 15:02:22,055 INFO CSV loaded successfully
+2024-05-27 15:02:24,681 INFO Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-05-27 15:02:28,943 INFO CultFAQChain initialized successfully
+2024-05-27 15:02:28,943 INFO Chain Initialised successfully
+2024-05-27 15:02:28,943 INFO GetGym initialized with URL
+2024-05-27 15:02:28,943 INFO PriceRetriever initialized with URLs
+2024-05-27 15:02:28,943 INFO GetDefault initialized with URL
+2024-05-27 15:02:33,682 INFO React agent created successfully
+2024-05-27 15:02:33,682 INFO AgentExecutor created successfully
+2024-05-27 15:02:33,682 INFO CultAgentExecutor initialized successfully
+2024-05-27 15:02:33,683 INFO Agent created and stored in session state
+2024-05-27 15:02:39,863 INFO Input cleaned successfully
+2024-05-27 15:02:40,419 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 15:02:41,017 INFO Received query: tell me about cult
+2024-05-27 15:02:41,018 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
+2024-05-27 15:02:41,425 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 15:02:41,981 INFO Answer processed and displayed

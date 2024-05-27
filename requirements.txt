@@ -6,5 +6,5 @@ langchain-core
 langchain-community
 langchain-groq
 langchain-nomic
-faiss-cpu
+chromadb
 langchainhub
