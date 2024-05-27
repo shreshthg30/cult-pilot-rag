@@ -9,3 +9,4 @@ langchain-nomic
 chromadb==0.3.29
 langchainhub
 uvicorn
+faiss-cpu
