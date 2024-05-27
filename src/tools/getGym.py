@@ -5,7 +5,7 @@ setup_logging()
 
 class GetGym:
     def __init__(self):
-        self.url = "https://www.cult.fit"
+        self.url = "curefit://allgyms"
         logging.info("GetGym initialized with URL")
 
     def get_gym(self, query: str):

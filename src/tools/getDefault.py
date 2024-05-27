@@ -5,7 +5,7 @@ setup_logging()
 
 class GetDefault:
     def __init__(self):
-        self.url = "https://www.cult.fit"
+        self.url = "curefit://fl_support"
         logging.info("GetDefault initialized with URL")
 
     def get_default(self, query:str):

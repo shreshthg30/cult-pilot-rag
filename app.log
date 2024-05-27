@@ -2632,3 +2632,18 @@ Thought: I assume the user is asking about the additional benefits of the Cultpa
 2024-05-25 13:59:54,525 INFO Received query: elite pass or pro what is the difference?
 2024-05-25 13:59:54,526 ERROR Error processing query 'elite pass or pro what is the difference?': 'RunnableSequence' object is not callable
 2024-05-25 13:59:54,814 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 11:30:11,672 INFO CSV loaded successfully
+2024-05-27 11:30:16,533 INFO Loading faiss.
+2024-05-27 11:30:16,596 INFO Successfully loaded faiss.
+2024-05-27 11:30:16,609 INFO CultFAQChain initialized successfully
+2024-05-27 11:30:16,609 INFO Chain Initialised successfully
+2024-05-27 11:30:16,609 INFO GetGym initialized with URL
+2024-05-27 11:30:16,609 INFO PriceRetriever initialized with URLs
+2024-05-27 11:30:16,609 INFO GetDefault initialized with URL
+2024-05-27 11:30:20,661 INFO React agent created successfully
+2024-05-27 11:30:20,661 INFO AgentExecutor created successfully
+2024-05-27 11:30:20,661 INFO CultAgentExecutor initialized successfully
+2024-05-27 11:30:21,136 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-27 11:30:22,569 INFO Received query: tell me about cult?
+2024-05-27 11:30:22,570 ERROR Error processing query 'tell me about cult?': 'RunnableSequence' object is not callable
+2024-05-27 11:30:22,901 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
