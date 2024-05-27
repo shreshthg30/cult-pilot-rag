@@ -12,6 +12,4 @@ services:
     startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
     envVars:
       - key: GROQ_API_KEY
-        generateValue: true
       - key: NOMIC_API_KEY
-        generateValue: true
