@@ -2768,3 +2768,50 @@ Thought: I assume the user is asking about the additional benefits of the Cultpa
 2024-05-27 17:38:02,827 INFO Received query: tell me about cult
 2024-05-27 17:38:02,828 ERROR Error processing query 'tell me about cult': 'RunnableSequence' object is not callable
 2024-05-27 17:38:03,237 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-28 11:02:52,050 INFO CSV loaded successfully
+2024-05-28 11:02:55,739 INFO Loading faiss.
+2024-05-28 11:02:55,802 INFO Successfully loaded faiss.
+2024-05-28 11:02:55,814 INFO CultFAQChain initialized successfully
+2024-05-28 11:02:55,815 INFO Chain Initialised successfully
+2024-05-28 11:02:55,815 INFO GetGym initialized with URL
+2024-05-28 11:02:55,815 INFO PriceRetriever initialized with URLs
+2024-05-28 11:02:55,815 INFO GetDefault initialized with URL
+2024-05-28 11:03:00,277 INFO React agent created successfully
+2024-05-28 11:03:00,277 INFO AgentExecutor created successfully
+2024-05-28 11:03:00,277 INFO CultAgentExecutor initialized successfully
+2024-05-28 11:03:00,683 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-28 11:03:01,214 INFO Received query: What workouts can I do at home?"
+
+2024-05-28 11:03:01,214 ERROR Error processing query 'What workouts can I do at home?"
+': 'RunnableSequence' object is not callable
+2024-05-28 11:03:01,527 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-28 11:05:55,156 INFO CSV loaded successfully
+2024-05-28 11:05:58,676 INFO Loading faiss.
+2024-05-28 11:05:58,694 INFO Successfully loaded faiss.
+2024-05-28 11:05:58,710 INFO CultFAQChain initialized successfully
+2024-05-28 11:05:58,710 INFO Chain Initialised successfully
+2024-05-28 11:05:58,710 INFO GetGym initialized with URL
+2024-05-28 11:05:58,710 INFO PriceRetriever initialized with URLs
+2024-05-28 11:05:58,710 INFO GetDefault initialized with URL
+2024-05-28 11:06:03,353 INFO React agent created successfully
+2024-05-28 11:06:03,354 INFO AgentExecutor created successfully
+2024-05-28 11:06:03,354 INFO CultAgentExecutor initialized successfully
+2024-05-28 11:06:03,720 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-28 11:06:04,246 INFO Received query: at home workouts
+2024-05-28 11:06:04,247 ERROR Error processing query 'at home workouts': 'RunnableSequence' object is not callable
+2024-05-28 11:06:04,543 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-28 11:08:27,099 INFO CSV loaded successfully
+2024-05-28 11:08:30,773 INFO Loading faiss.
+2024-05-28 11:08:30,816 INFO Successfully loaded faiss.
+2024-05-28 11:08:30,828 INFO CultFAQChain initialized successfully
+2024-05-28 11:08:30,829 INFO Chain Initialised successfully
+2024-05-28 11:08:30,829 INFO GetGym initialized with URL
+2024-05-28 11:08:30,829 INFO PriceRetriever initialized with URLs
+2024-05-28 11:08:30,829 INFO GetDefault initialized with URL
+2024-05-28 11:08:35,460 INFO React agent created successfully
+2024-05-28 11:08:35,461 INFO AgentExecutor created successfully
+2024-05-28 11:08:35,461 INFO CultAgentExecutor initialized successfully
+2024-05-28 11:08:35,926 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-28 11:08:36,809 INFO Received query: at home workouts
+2024-05-28 11:08:39,443 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-28 11:08:39,761 INFO HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

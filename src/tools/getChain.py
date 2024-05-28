@@ -14,7 +14,7 @@ class GetChain:
     def get_chain(self, query: str):
         try:
             logging.info(f"Received query: {query}")
-            response = self.chain(query)
+            response = self.chain.invoke(query)
             return response
         except Exception as e:
             logging.error(f"Error processing query '{query}': {e}")
